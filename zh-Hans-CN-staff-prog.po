@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 21.05\n"
 "POT-Creation-Date: 2021-05-27 11:22-0300\n"
-"PO-Revision-Date: 2021-09-27 16:27+0800\n"
+"PO-Revision-Date: 2021-09-29 15:58+0800\n"
 "Last-Translator: 黄飞龙 <hfl@huangfeilong.com>\n"
 "Language-Team: koha_TW <kohataiwan@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -24,11 +24,9 @@ msgstr ""
 #. %3$s:  END
 #. %4$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/tables/members_results.tt:37
-#, fuzzy, c-format
+#, c-format
 msgid "\", \"borrowernumber\": \"%s\" }%s,%s %s ] } "
-msgstr ""
-"\", \"borrowernumber\": \"%s\" }%s,%s %s ] } %s %s %s%s%s %s%s%s %s%s%s %s "
-"%s "
+msgstr "\"，\"借阅者号码\"：\"%s\" }%s,%s %s ] } "
 
 #. %1$s:  data.borrowernotes | html_line_break | collapse | $To
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/tables/members_results.tt:33
@@ -73,11 +71,13 @@ msgstr ""
 #. %4$s:  ELSE
 #. %5$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/tables/shelves_results.tt:14
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\", \"dt_count\": \"%s item(s)\", \"dt_is_shared\": \"%sPublic%sShared"
 "%sPrivate%s\", \"dt_owner\": \""
-msgstr "\", \"dt_count\": \"%s item(s)\", \"dt_owner\": \""
+msgstr ""
+"\"，\"dt_count\": \"%s 册文献\", \"dt_is_shared\": \"%s公开%s共享%s私有%s\", "
+"\"dt_owner\": \""
 
 #. %1$s:  INCLUDE 'patron-age.inc' patron = data
 #. %2$s:  data.category_description | html | $To
@@ -364,13 +364,13 @@ msgstr ""
 #. %37$s: - span_end   = ''
 #. %38$s: - ELSE
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-title.inc:1
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s "
 "%s %s %s %s %s %s%s%s %s %s %s %s %s [%%- span_start = '"
 msgstr ""
-"%s %s %s &nbsp; %s %s - %s %s %s - %s%s %s- %s%s %s - %s%s %s版本：%s%s %s ; "
-"%s%s %s - %s%s %s ; %s%s %s "
+"%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s "
+"%s %s %s %s %s %s%s%s %s %s %s %s %s [%%- span_start = '"
 
 #. %1$s:  USE raw
 #. %2$s:  USE Asset
@@ -392,11 +392,13 @@ msgstr ""
 #. %18$s: - END -
 #. %19$s:  INCLUDE 'doc-head-open.inc'
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s %s %s %s %s %s %s %s %s %s %sCirculation %sCatalog %sPatrons "
 "%sAcquisitions %sAccounts %sSerials %s %s %s "
-msgstr "%s %s %s %s流通 %s编目 %s读者 %s采访 %s帐号 %s期刊 %s %s %s "
+msgstr ""
+"%s %s %s %s %s %s %s %s %s %s %s流通 %s编目 %s人员 %s采访 %s账号 %s连续出版"
+"物 %s %s %s "
 
 #. For the first occurrence,
 #. %1$s:  ar.biblio.biblioitem.publishercode | html
@@ -414,9 +416,9 @@ msgstr "%s %s %s %s流通 %s编目 %s读者 %s采访 %s帐号 %s期刊 %s %s %s 
 #. %13$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:150
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:249
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s %s %s %s : %s %s %s %s ISBN: %s %s "
-msgstr "%s%s%s %s , %s %s , %s %s %s: %s %s %s%s%s %sISBN: %s%s "
+msgstr "%s %s %s %s %s %s %s : %s %s %s %s ISBN： %s %s "
 
 #. %1$s:  USE raw
 #. %2$s:  USE Asset
@@ -427,9 +429,9 @@ msgstr "%s%s%s %s , %s %s , %s %s %s: %s %s %s%s%s %sISBN: %s%s "
 #. %7$s:  IF module.keys and module.keys.size > 0
 #. %8$s:  FOR pagename IN module.keys.sort
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:1
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s %s %s %s Jump to: %s "
-msgstr "%s %s %s %s 没有 %s "
+msgstr "%s %s %s %s %s %s %s 跳至： %s "
 
 #. %1$s: - USE ItemTypes -
 #. %2$s: - INCLUDE csv_headers/reports/cash_register_stats.tt -
@@ -441,9 +443,9 @@ msgstr "%s %s %s %s 没有 %s "
 #. %8$s: - INCLUDE empty_line.inc -
 #. %9$s: - FOREACH field IN total; field; sep IF !loop.last; END -
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/csv/cash_register_stats.tt:1
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s %s %s %s TOTAL%s %s "
-msgstr "%s %s %s %s 没有 %s "
+msgstr "%s %s %s %s %s %s %s共%s %s "
 
 #. %1$s:  END
 #. %2$s:  END
@@ -536,13 +538,13 @@ msgstr ""
 #. %36$s: - END -
 #. %37$s: - IF hide_patron_infos_if_needed AND ( display_patron_name OR display_cardnumber ) -
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-title.inc:56
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s %s %s %s %s %s (%s)%s %s %s%s%s, %s%s%s (%s) %s %s %s%s %s (%s) %s %s %s "
 "%s (%s)%s %s %s%s %s %s %s A patron from library %s %s %s "
 msgstr ""
-"%s %s %s &nbsp; %s %s - %s %s %s - %s%s %s- %s%s %s - %s%s %s版本：%s%s %s ; "
-"%s%s %s - %s%s %s ; %s%s %s "
+"%s %s %s %s %s %s (%s)%s %s %s%s%s, %s%s%s (%s) %s %s %s%s %s (%s) %s %s %s "
+"%s (%s)%s %s %s%s %s %s %s 人员来自图书馆 %s %s %s "
 
 #. %1$s:  USE raw
 #. %2$s:  USE Asset
@@ -554,9 +556,9 @@ msgstr ""
 #. %8$s:  END
 #. %9$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:1
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s %s %s SRU %s Z39.50 %s %s "
-msgstr "%s %s %s SRU %s Z39.50 %s %s "
+msgstr "%s %s %s %s %s %s SRU %s Z39.50 %s %s "
 
 #. %1$s: - INCLUDE csv_headers/reports/orders_by_budget.tt -
 #. %2$s: - INCLUDE empty_line.inc -
@@ -567,9 +569,9 @@ msgstr "%s %s %s SRU %s Z39.50 %s %s "
 #. %7$s: - INCLUDE empty_line.inc -
 #. %8$s: - FOREACH field IN totalrow; field; sep IF !loop.last; END -
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/csv/orders_by_budget.tt:1
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s %s %s TOTAL%s %s "
-msgstr "%s %s %s %s 没有 %s "
+msgstr "%s %s %s %s %s %s 共%s %s "
 
 #. %1$s:  IF request.logs.size > 0
 #. %2$s:  FOREACH log IN request.logs
@@ -579,9 +581,11 @@ msgstr "%s %s %s %s 没有 %s "
 #. %6$s:  ELSE
 #. %7$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:721
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s %s %s There are no recorded logs for this request %s "
-msgstr "%s 此寻找结果未排序。%s "
+msgstr ""
+"%s %s %s %s %s %s此请求无历史记录 There are no recorded logs for this "
+"request %s "
 
 #. %1$s:  USE raw
 #. %2$s:  USE To
@@ -595,13 +599,13 @@ msgstr "%s 此寻找结果未排序。%s "
 #. %10$s:  FOREACH data IN aaData
 #. %11$s:  IF CAN_user_borrowers_edit_borrowers || CAN_user_tools_manage_patron_lists
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/tables/members_results.tt:1
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s %s %s %s %s %s { \"sEcho\": %s, \"iTotalRecords\": %s, "
 "\"iTotalDisplayRecords\": %s, \"aaData\": [ %s { %s \"dt_borrowernumber\": \""
 msgstr ""
-"%s %s { \"sEcho\": %s, \"iTotalRecords\": %s, \"iTotalDisplayRecords\": %s, "
-"\"aaData\": [ %s { %s \"dt_borrowernumber\": \""
+"%s %s %s %s %s %s { \"sEcho\": %s, \"iTotalRecords\": %s, "
+"\"iTotalDisplayRecords\": %s, \"aaData\": [ %s { %s \"dt_borrowernumber\": \""
 
 #. %1$s:  USE raw
 #. %2$s:  USE Asset
@@ -620,13 +624,13 @@ msgstr ""
 #. %15$s:  END
 #. %16$s:  INCLUDE 'doc-head-open.inc'
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-manage.tt:1
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s %s %s %s %s %slayout %sLayouts %stemplate %sTemplates %sprofile "
 "%sProfiles %sbatch %sBatches %s %s %s "
 msgstr ""
-"%s %s %s布局 %s布局 %s模板 %s模板 %s分配文件 %s分配文件 %s批次 %s批次 %s %s "
-"%s "
+"%s %s %s %s %s %s布局 %s布局 %s模板 %s模板 %s配置文件 %s配置文件 %s批次 %s批"
+"次 %s %s %s "
 
 #. %1$s:  END
 #. %2$s:  IF budget.b_active
@@ -635,9 +639,9 @@ msgstr ""
 #. %5$s:  budget.b_txt | html
 #. %6$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:222
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s %s (inactive) %s "
-msgstr "%s %s%s (未启用)%s "
+msgstr "%s %s %s %s %s （未启用） %s "
 
 #. %1$s:  USE raw
 #. %2$s:  SET footerjs = 1
@@ -659,6 +663,9 @@ msgid ""
 "bibliographic data are printed on alternating labels %s Only the barcode is "
 "printed %s %s %s "
 msgstr ""
+"%s %s %s %s %s 仅打印书目数据 %s Barcode proceeds bibliographic data %s "
+"Bibliographic data proceeds barcode %s Barcode and bibliographic data are "
+"printed on alternating labels %s 仅打印条码 %s %s %s "
 
 #. %1$s:  INCLUDE 'header.inc'
 #. %2$s:  INCLUDE 'serials-search.inc'
@@ -4888,7 +4895,7 @@ msgstr "&rsaquo;%s 通过评论%s 等待审核的评论%s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:774
 #, c-format
 msgid "%s Article requests"
-msgstr ""
+msgstr "%s 文章请求"
 
 #. For the first occurrence,
 #. %1$s:  ELSE
@@ -14825,7 +14832,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:98
 #, c-format
 msgid "Article requests"
-msgstr ""
+msgstr "文章请求"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:9
 #, fuzzy, c-format

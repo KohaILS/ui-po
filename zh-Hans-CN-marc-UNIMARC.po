@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 21.05\n"
 "POT-Creation-Date: 2021-05-26 11:31-0300\n"
-"PO-Revision-Date: 2021-09-27 16:40+0800\n"
+"PO-Revision-Date: 2021-10-04 16:57+0800\n"
 "Last-Translator: 黄飞龙 <hfl@huangfeilong.com>\n"
 "Language-Team: koha_TW <kohataiwan@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -784,9 +784,9 @@ msgstr "3英寸乘5英寸。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_121a.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_121a.tt:24
-#, fuzzy, c-format
+#, c-format
 msgid "3-dimensional"
-msgstr "2度空间"
+msgstr "3纬空间"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_121b.tt:98
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_121b.tt:100
@@ -861,9 +861,9 @@ msgid "45 rpm"
 msgstr "45 rpm"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:5
-#, fuzzy, c-format
+#, c-format
 msgid "4XX plugin &rsaquo; Cataloging &rsaquo; Koha"
-msgstr "Koha &rsaquo; 编目 &rsaquo; 4XX 外挂程序"
+msgstr "Koha &rsaquo; 编目 &rsaquo; 4XX 插件程序"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader.tt:16
 #, c-format
@@ -1012,6 +1012,14 @@ msgid ""
 "@code='i' or @code='v']\"> <xsl:text>, </xsl:text> <xsl:value-of select=\"."
 "\"/> </xsl:for-each> "
 msgstr ""
+"<xsl:variable name=\"title\" select=\"marc:subfield[@code='a']\"/> <xsl:"
+"variable name=\"ntitle\" select=\"translate($title, '&#x0098;&#x009C;&#xC29C;"
+"&#xC29B;&#xC298;&#xC288;&#xC289;','')\"/> <xsl:value-of select=\"$ntitle\" /"
+"> <xsl:if test=\"marc:subfield[@code='e']\"> <xsl:text> : </xsl:text> <xsl:"
+"for-each select=\"marc:subfield[@code='e']\"> <xsl:value-of select=\".\"/> </"
+"xsl:for-each> </xsl:if> <xsl:for-each select=\"marc:subfield[@code='h' or "
+"@code='i' or @code='v']\"> <xsl:text>, </xsl:text> <xsl:value-of select=\"."
+"\"/> </xsl:for-each> "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124f.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124f.tt:23
@@ -1199,13 +1207,12 @@ msgstr "预期读者："
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:510
 #, c-format
 msgid "Audio file"
-msgstr ""
+msgstr "音频文件"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:106
-#, fuzzy
 msgid "Authority"
-msgstr "权威类型"
+msgstr "规范类型"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:45
 #, c-format
@@ -1635,7 +1642,7 @@ msgstr "勾选这里上线 "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:99
 #, c-format
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_121b.tt:83
 #, c-format
@@ -2314,7 +2321,7 @@ msgid "Heading descendant"
 msgstr "标题降羃"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:61
-#, fuzzy, c-format
+#, c-format
 msgid "Heading type"
 msgstr "标题 A-Z"
 
@@ -2342,7 +2349,7 @@ msgid "Hemisphere:"
 msgstr "半球："
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:3
-#, fuzzy, c-format
+#, c-format
 msgid "Hide coded information filters"
 msgstr "编码的信息筛选器"
 
@@ -3163,7 +3170,7 @@ msgstr "联机资源："
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:112
 #, c-format
 msgid "OpenURL"
-msgstr ""
+msgstr "OpenURL"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128b.tt:267
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128b.tt:269
@@ -3724,7 +3731,7 @@ msgid "Set Level"
 msgstr "设置层次"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:2
-#, fuzzy, c-format
+#, c-format
 msgid "Show coded information filters"
 msgstr "编码的信息筛选器"
 
@@ -4492,9 +4499,9 @@ msgid "UNIMARC field 210c builder"
 msgstr "UNIMARC 字段 210c 创建者"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c_bis.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 210c builder &rsaquo; Koha"
-msgstr "UNIMARC 字段 210c 创建者"
+msgstr "UNIMARC 字段 210c 创建者 &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_225a.tt:3
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_225a.tt:8
@@ -4504,9 +4511,9 @@ msgid "UNIMARC field 225a builder"
 msgstr "UNIMARC 字段 225a 创建者"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_225a_bis.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 225a builder &rsaquo; Koha"
-msgstr "UNIMARC 字段 225a 创建者"
+msgstr "UNIMARC 字段 225a 创建者 &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:11
 #, c-format
@@ -4529,7 +4536,7 @@ msgstr "UNIMARC 字段 700-4 创建者"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader.tt:8
 #, c-format
 msgid "UNIMARC leader builder"
-msgstr "UNIMARC 纪录置标创建者"
+msgstr "UNIMARC 头标区创建者"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2OAIDC.xsl:155
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2RDFDC.xsl:136
@@ -4973,12 +4980,12 @@ msgid "abcd"
 msgstr "abcd"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:310
-#, fuzzy, c-format
+#, c-format
 msgid "abcdfijkmnptvxyz"
 msgstr "abcdfijkmnpvxyz"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslimUtils.xsl:268
-#, fuzzy, c-format
+#, c-format
 msgid "abcdjptvxyz"
 msgstr "abcdjpvxyz"
 
@@ -9195,9 +9202,9 @@ msgstr "音乐杂志和喜剧"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_140.tt:1507
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_140.tt:1509
-#, fuzzy, c-format
+#, c-format
 msgid "mystic literature"
-msgstr "灵修文学"
+msgstr "神秘文学"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader.tt:280
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader.tt:282
@@ -12742,7 +12749,7 @@ msgstr "vv- 混搭"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_105.tt:803
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_105.tt:938
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_105.tt:940
-#, fuzzy, c-format
+#, c-format
 msgid "w - religious text"
 msgstr "w - 宗教作品"
 

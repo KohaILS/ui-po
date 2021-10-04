@@ -1,15 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 21.05\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2021-09-29 14:42+0800\n"
 "Language-Team: Koha Translation Team\n"
-"Language: zh-Hans-CN\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Pootle-Path: /zh_CN/21.05/zh-Hans-CN-installer.po\n"
 "X-Pootle-Revision: 1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"Last-Translator: 黄飞龙 <hfl@huangfeilong.com>\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: installer/data/mysql/en/optional/patron_categories.yml:description:21
 msgid "                B   - Board"
@@ -21,23 +24,23 @@ msgstr ""
 
 #: installer/data/mysql/en/optional/patron_categories.yml:description:14
 msgid "                ILL - Inter-library Loan"
-msgstr ""
+msgstr "馆际互借"
 
 #: installer/data/mysql/en/optional/patron_categories.yml:description:10
 msgid "                J   - Juvenile"
-msgstr ""
+msgstr "青少年"
 
 #: installer/data/mysql/en/optional/patron_categories.yml:description:9
 msgid "                K   - Kid"
-msgstr ""
+msgstr "少儿"
 
 #: installer/data/mysql/en/optional/patron_categories.yml:description:16
 msgid "                L   - Library"
-msgstr ""
+msgstr "L - 图书馆"
 
 #: installer/data/mysql/en/optional/patron_categories.yml:description:4
 msgid "                PT  - Patron"
-msgstr ""
+msgstr "人员"
 
 #: installer/data/mysql/en/optional/patron_categories.yml:description:20
 msgid "                S   - Staff"

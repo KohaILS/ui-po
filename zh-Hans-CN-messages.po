@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Koha 21.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 21:33-0300\n"
-"PO-Revision-Date: 2018-12-16 10:34-0300\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2021-10-04 16:48+0800\n"
+"Last-Translator: 黄飞龙 <hfl@huangfeilong.com>\n"
 "Language-Team: none\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -17,114 +17,115 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Pootle-Path: /zh_CN/21.05/zh-Hans-CN-messages.po\n"
 "X-Pootle-Revision: 1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:49
 #, perl-brace-format
 msgid "(search field {field_name} with mapping {marc_field}.)"
-msgstr ""
+msgstr "（检索字段 {field_name} 映射到 {marc_field}。）"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-age.inc:9
 #, perl-brace-format
 msgid "({age} year)"
 msgid_plural "({age} years)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "({age} 岁)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:48
 msgid ""
 "An error occurred when deleting the existing mappings. Nothing has been "
 "changed!"
-msgstr ""
+msgstr "删除已经存在的映射时出错。无任何改动！"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:55
 #, perl-brace-format
 msgid ""
 "An error occurred when updating Elasticsearch index mappings: {message}."
-msgstr ""
+msgstr "更新 Elasticsearch 索引映射时出错：{message}。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:46
 #, perl-brace-format
 msgid "An error occurred when updating mappings: {message}."
-msgstr ""
+msgstr "更新映射时出错：{message}。"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:189
 msgctxt "Cancel hold button"
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1266
 msgctxt "patron restriction created on"
 msgid "Created"
-msgstr ""
+msgstr "创建"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:105
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/transferorder.tt:44
 msgctxt "basket created by"
 msgid "Created by"
-msgstr ""
+msgstr "创建者"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:245
 msgctxt "basket created by"
 msgid "Created by:"
-msgstr ""
+msgstr "创建者："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:242
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:500
 msgctxt "purchase suggestion created by"
 msgid "Created by:"
-msgstr ""
+msgstr "创建者："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:65
 msgid "Elasticsearch is currently disabled."
-msgstr ""
+msgstr "Elasticsearch 当前未启用。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:59
 #, perl-brace-format
 msgid "Index '{index}' needs to be recreated."
-msgstr ""
+msgstr "索引“{index}”需要重建。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:57
 #, perl-brace-format
 msgid "Index '{index}' needs to be reindexed."
-msgstr ""
+msgstr "索引“{index}”需要重新索引。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:51
 #, perl-brace-format
 msgid "Invalid field weight '{weight}', must be a positive decimal number."
-msgstr ""
+msgstr "无效的字段权重 “{weight}”，该值必须为十进制数字。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:129
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:271
 msgid "Item does not belong to your library"
-msgstr ""
+msgstr "此文献不是您的图书馆馆藏"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:130
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:272
 msgid "Item has a waiting hold"
-msgstr ""
+msgstr "文献文献待预约"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:131
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:273
 msgid "Item has linked analytics"
-msgstr ""
+msgstr "文献已链接至分析报表"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:128
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:270
 msgid "Item is checked out"
-msgstr ""
+msgstr "文献已借出"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:132
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:274
 msgid "Last item for bibliographic record with biblio-level hold on it"
-msgstr ""
+msgstr "书目记录中最后一个著录项用来记录文献是否保留"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:63
 msgid "Mappings have been reset successfully."
-msgstr ""
+msgstr "映射已成功重置。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:61
 msgid "Mappings updated successfully."
-msgstr ""
+msgstr "映射已经更新。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:422
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:625
@@ -136,7 +137,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:104
 msgctxt "noun"
 msgid "Order"
-msgstr ""
+msgstr "订单"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersubscription.tt:93
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersuggestion.tt:102
@@ -144,75 +145,66 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:189
 msgctxt "verb"
 msgid "Order"
-msgstr ""
+msgstr "订购"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:821
 #, perl-brace-format
 msgctxt "pluralization"
 msgid "There is one archived suggestion."
 msgid_plural "There are {count} archived suggestions."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "有 {count} 条建议归档。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:133
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:275
 msgid "Unknown reason"
-msgstr ""
+msgstr "未知原因"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:53
 msgid ""
 "You attempted to delete all mappings for a required index, you must leave at "
 "least one mapping"
-msgstr ""
+msgstr "您不能试图删除请求索引的所有映射，而是至少要留一组映射"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:228
 msgid "checkout"
 msgid_plural "checkouts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "借出"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:244
 msgid "hold pending"
 msgid_plural "holds pending"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "预约"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:252
 msgid "hold waiting"
 msgid_plural "holds waiting"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "预约等待中"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:269
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:276
 msgid "message"
 msgid_plural "messages"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "信息"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:236
 msgid "overdue"
 msgid_plural "overdues"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "逾期"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:564
 #, perl-brace-format
 msgid "{count} item"
 msgid_plural "{count} items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{count}  种文献"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:194
 #, perl-brace-format
 msgid "{count} library limitation"
 msgid_plural "{count} library limitations"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{count} 条图书馆限制"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_rm_items.tt:60
 #, perl-brace-format
 msgid "{title} ({barcode}) was removed from {count} course."
 msgid_plural "{title} ({barcode}) was removed from {count} courses."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{title} ({barcode}) 已从 {count} 课程中移除。"

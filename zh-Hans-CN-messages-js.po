@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Koha 21.05\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 21:33-0300\n"
-"PO-Revision-Date: 2020-02-14 11:05-0300\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2021-10-04 16:02+0800\n"
+"Last-Translator: 黄飞龙 <hfl@huangfeilong.com>\n"
 "Language-Team: none\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -17,42 +17,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Pootle-Path: /zh_CN/21.05/zh-Hans-CN-messages-js.po\n"
 "X-Pootle-Revision: 1\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:88
 msgid " (current) "
-msgstr ""
+msgstr "（当前）"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/basket.js:192
 #: koha-tmpl/opac-tmpl/bootstrap/js/basket.js:195
 msgctxt "Bibliographic record"
 msgid " item(s) added to your cart"
-msgstr ""
+msgstr "文献已放入借书车"
 
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:210
 #, javascript-format
 msgid "%s already in your cart"
-msgstr ""
+msgstr "%s 已经在借书车里"
 
 #: koha-tmpl/intranet-tmpl/prog/js/catalog.js:41
 #, javascript-format
 msgid ""
 "%s deleted order(s) are using this record. Are you sure you want to delete "
 "this record?"
-msgstr ""
+msgstr "%s 删除的订单正在使用这条记录。您确认要删除这条记录吗？"
 
 #: koha-tmpl/intranet-tmpl/prog/js/catalog.js:43
 #, javascript-format
 msgid ""
 "%s deleted order(s) are using this record. You need order managing "
 "permissions to delete this record."
-msgstr ""
+msgstr "%s 删除的订单正在使用这条记录。您需要订单管理权限才能删除这条记录。"
 
 #: koha-tmpl/intranet-tmpl/prog/js/catalog.js:64
 #, javascript-format
 msgid ""
 "%s hold(s) on this record. You must delete all holds before deleting all "
 "items."
-msgstr ""
+msgstr "%s 与此记录相关的馆藏。必须先删除馆藏才能删除记录。"
 
 #: koha-tmpl/intranet-tmpl/prog/js/catalog.js:46
 #, javascript-format
