@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 21.05\n"
 "POT-Creation-Date: 2021-05-27 11:22-0300\n"
-"PO-Revision-Date: 2021-09-29 15:58+0800\n"
+"PO-Revision-Date: 2021-10-09 16:44+0800\n"
 "Last-Translator: 黄飞龙 <hfl@huangfeilong.com>\n"
 "Language-Team: koha_TW <kohataiwan@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -1086,7 +1086,7 @@ msgstr "%s %s %s 无图书馆 %s %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:142
 #, fuzzy, c-format
 msgid "%s %s %s Authority record "
-msgstr "权威纪录"
+msgstr "规范纪录"
 
 #. For the first occurrence,
 #. %1$s:  IF ( basketgroup.name )
@@ -1219,7 +1219,7 @@ msgid ""
 "Framework %sDefault framework %s &rsaquo; %s Authority MARC framework "
 "&rsaquo; Administration &rsaquo; Koha "
 msgstr ""
-"Koha &rsaquo; 管理 &rsaquo; 权威 MARC %s%s %s&rsaquo; %s%s 框架%s缺省框架%s "
+"Koha &rsaquo; 管理 &rsaquo; 规范 MARC %s%s %s&rsaquo; %s%s 框架%s缺省框架%s "
 "&rsaquo; 修改字段标签%s %s&rsaquo; %s%s 框架%s缺省框架%s &rsaquo; 新增字段标"
 "签%s %s&rsaquo; %s%s%s%s&rsaquo; %s%s 框架%s缺省框架%s &rsaquo; 确认删除%s"
 "%s&rsaquo; %s%s 框架%s缺省框架%s &rsaquo; 删除数据%s"
@@ -2568,7 +2568,7 @@ msgstr "%s %s 电子邮件 %s 打印 %s 简讯 %s Feed %s 电话 %s %s %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:292
 #, c-format
 msgid "%s %s Found in wrong place"
-msgstr ""
+msgstr "%s %s 错架"
 
 #. %1$s:  END
 #. %2$s:  ELSE
@@ -2711,7 +2711,7 @@ msgid ""
 "deletion of authority type &rsaquo; %s Authority types &rsaquo; "
 "Administration &rsaquo; Koha "
 msgstr ""
-"%s &rsaquo; %s修改%s新增%s 权威纪录类型 %s &rsaquo; 确认删除权威纪录类型 %s "
+"%s &rsaquo; %s修改%s新增%s 规范纪录类型 %s &rsaquo; 确认删除规范纪录类型 %s "
 
 #. %1$s:  IF ( add_form )
 #. %2$s:  IF ( budget_period_id )
@@ -3120,7 +3120,7 @@ msgid ""
 "for. %s Suggest that patrons expand their searches to include broader/"
 "narrower/related terms. %s Use the LIBRIS spellcheck API. %s "
 msgstr ""
-"%s %s 读者寻找用的采访推荐权威。%s 读者扩充其采访推荐，包括广义/狭义/相关词"
+"%s %s 读者寻找用的采访推荐规范。%s 读者扩充其采访推荐，包括广义/狭义/相关词"
 "汇。%s "
 
 #. %1$s:  END
@@ -3161,11 +3161,11 @@ msgid ""
 "been deleted successfully. %s Authority %s has been deleted successfully. %s "
 "%s (The error was: %s, see the Koha log file for more information). %s "
 msgstr ""
-"%s %s biblionumber %s 不存在于数据库内。%s 权威别名 %s 不存在于数据库内。%s "
+"%s %s biblionumber %s 不存在于数据库内。%s 规范别名 %s 不存在于数据库内。%s "
 "书目记录 %s 至少被借出一个馆藏。%s 书目记录 %s 未被删除。不能删除馆藏 "
 "(reserve_id %s)。%s 书目记录 %s 未被删除。删除馆藏 (itemnumber %s) 时发生错"
-"误。%s 书目记录 %s 未被删除。发生错误。%s 权威记录 %s 未被删除。发生错误。%s "
-"书目记录 %s 已成功删除。%s 权威 %s 已成功删除。%s %s (错误是：%s，详情见 "
+"误。%s 书目记录 %s 未被删除。发生错误。%s 规范记录 %s 未被删除。发生错误。%s "
+"书目记录 %s 已成功删除。%s 规范 %s 已成功删除。%s %s (错误是：%s，详情见 "
 "Koha 记录档)。%s "
 
 #. %1$s:  END
@@ -3189,7 +3189,7 @@ msgid ""
 "(The error was: %s. See the Koha logfile for more information). %s "
 msgstr ""
 "%s 选定的模版 (id=%s) 不存在或未设置作用。%s 书目纪录 %s 不存在于数据库"
-"内。%s 权威纪录号 %s 不存放在于数据库内。%s 此书目 "
+"内。%s 规范纪录号 %s 不存放在于数据库内。%s 此书目 "
 
 #. %1$s:  SWITCH m.code
 #. %2$s:  CASE 'already_exists'
@@ -3543,7 +3543,7 @@ msgid ""
 "%s %s %s %s %sIntranet %sOPAC %sSIP %sCommand-line %sREST API %sCron job "
 "%sUpgrade %s%s %s %s "
 msgstr ""
-"%s %s %s %s %s目录 %s权威 %s读者 %s采访 %s期刊 %s流通 %s信件 %s罚款 %s系统首"
+"%s %s %s %s %s目录 %s规范 %s读者 %s采访 %s期刊 %s流通 %s信件 %s罚款 %s系统首"
 "选 %s工作调度 %s报表 %s%s %s %s %s %s %s新增 %s删除 %s修改 %s借出 %s还入 %s新"
 "增 %s%s %s %s "
 
@@ -3723,7 +3723,7 @@ msgstr "%s %s成人 %s儿童 %s专业 %s机构 %s馆员 %s统计%s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:69
 #, fuzzy, c-format
 msgid "%s %sAuthorities%s "
-msgstr "权威："
+msgstr "规范："
 
 #. %1$s:  SWITCH f.name
 #. %2$s:  CASE 'author'
@@ -3802,7 +3802,7 @@ msgstr "%s %s %s %s错误：不能取得馆藏。"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:82
 #, c-format
 msgid "%s %sEdit MARC subfields constraints for field %s authority %s%s %s%s%s"
-msgstr "%s %s编辑 MARC 分栏限制 %s 权威纪录 %s%s %s%s%s"
+msgstr "%s %s编辑 MARC 分栏限制 %s 规范纪录 %s%s %s%s%s"
 
 #. %1$s:  IF ( add_form )
 #. %2$s:  IF ( basketno )
@@ -3812,7 +3812,7 @@ msgstr "%s %s编辑 MARC 分栏限制 %s 权威纪录 %s%s %s%s%s"
 #. %6$s:  END
 #. %7$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketheader.tt:7
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s %sEdit basket '%s' %sAdd a basket to %s %s %s &rsaquo; Acquisitions "
 "&rsaquo; Koha "
@@ -4570,7 +4570,7 @@ msgstr "勾选以扩充此标签"
 msgid ""
 "%s / %s records have successfully been modified. Some errors occurred. %sThe "
 "job has been cancelled before it finished.%s "
-msgstr "已修改成功。%s 权威 "
+msgstr "已修改成功。%s 规范 "
 
 #. %1$s:  booksellerphone | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:62
@@ -4885,9 +4885,9 @@ msgstr "%s 批准 %s 拒绝 %s 测试 %s未明的作业 (%s) 在 %s %s 期间。
 #. %2$s:  ELSE
 #. %3$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:24
-#, fuzzy, c-format
+#, c-format
 msgid "%s Approved comments %s Comments awaiting moderation %s "
-msgstr "&rsaquo;%s 通过评论%s 等待审核的评论%s"
+msgstr "%s 合规评论 %s 待审评论 %s "
 
 #. For the first occurrence,
 #. %1$s:  patron.article_requests_current.count | html
@@ -5324,9 +5324,9 @@ msgstr "Koha &rsaquo; 课程指定用书 &rsaquo; 新增项目"
 #. %2$s:  ELSE
 #. %3$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:22
-#, fuzzy, c-format
+#, c-format
 msgid "%s Edit %s Reserve %s "
-msgstr "&rsaquo;编辑 %s "
+msgstr "%s 编辑 %s 逆向 %s "
 
 #. For the first occurrence,
 #. %1$s:  IF ( layout_id )
@@ -5353,9 +5353,9 @@ msgstr "新增模板"
 #. %2$s:  ELSE
 #. %3$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/koha-news.tt:42
-#, fuzzy, c-format
+#, c-format
 msgid "%s Edit news item %s Add news item %s "
-msgstr "&rsaquo; %s 编辑新增馆藏%s新增馆藏%s%s最新消息%s"
+msgstr "%s 编辑新增馆藏%s新增馆藏%s"
 
 #. %1$s:  IF ( profile_id )
 #. %2$s:  profile_id | html
@@ -5700,7 +5700,7 @@ msgstr "遗失(破坏)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:36
 #, fuzzy, c-format
 msgid "%s Modify %s New %s Authority type "
-msgstr "%s 修改权威纪录类型 %s 新增权威纪录类型 %s "
+msgstr "%s 修改规范纪录类型 %s 新增规范纪录类型 %s "
 
 #. %1$s:  IF city.cityid
 #. %2$s:  ELSE
@@ -5754,7 +5754,7 @@ msgstr "%s 修改读者清单 %s 新增读者清单 %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:94
 #, c-format
 msgid "%s Modify authority type %s New authority type %s "
-msgstr "%s 修改权威纪录类型 %s 新增权威纪录类型 %s "
+msgstr "%s 修改规范纪录类型 %s 新增规范纪录类型 %s "
 
 #. %1$s:  IF class_source
 #. %2$s:  ELSE
@@ -5866,7 +5866,7 @@ msgstr "%s 修改订单 %s 新订单 %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:42
 #, fuzzy, c-format
 msgid "%s Modify patron attribute type %s Add patron attribute type %s "
-msgstr "%s 修改权威纪录类型 %s 新增权威纪录类型 %s "
+msgstr "%s 修改规范纪录类型 %s 新增规范纪录类型 %s "
 
 #. %1$s:  IF list.patron_list_id
 #. %2$s:  ELSE
@@ -6964,7 +6964,7 @@ msgstr "输出选定的馆藏"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/detail.tt:30
 #, fuzzy, c-format
 msgid "%s Unknown authority record %s Details for authority #%s (%s) %s "
-msgstr "&rsaquo; %s 权威纪录不明 %s 权威纪录详情 #%s (%s) %s "
+msgstr "&rsaquo; %s 规范纪录不明 %s 规范纪录详情 #%s (%s) %s "
 
 #. %1$s:  IF ( unknownauthid )
 #. %2$s:  ELSE
@@ -6976,7 +6976,7 @@ msgstr "&rsaquo; %s 权威纪录不明 %s 权威纪录详情 #%s (%s) %s "
 msgid ""
 "%s Unknown authority record %s Details for authority #%s (%s) %s &rsaquo; "
 "Authorities &rsaquo; Koha "
-msgstr "&rsaquo; %s 权威纪录不明 %s 权威纪录详情 #%s (%s) %s "
+msgstr "&rsaquo; %s 规范纪录不明 %s 规范纪录详情 #%s (%s) %s "
 
 #. %1$s:  ELSIF problem.key == 'changestatus'
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:295
@@ -8462,11 +8462,11 @@ msgstr "%s新增订阅%s ("
 #. %2$s:  ELSE
 #. %3$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:5
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%sApproved comments%sComments awaiting moderation%s &rsaquo; Comments "
 "&rsaquo; Tools &rsaquo; Koha"
-msgstr "&rsaquo;%s 通过评论%s 等待审核的评论%s"
+msgstr "%s合规通过%s待审评论%s &rsaquo; 评论 &rsaquo; 工具 &rsaquo; Koha"
 
 #. %1$s:  IF ( record_type == 'auth' )
 #. %2$s:  ELSE
@@ -8474,7 +8474,7 @@ msgstr "&rsaquo;%s 通过评论%s 等待审核的评论%s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:128
 #, c-format
 msgid "%sAuthority records%sBibliographic records%s"
-msgstr "%s权威纪录%s书目纪录%s"
+msgstr "%s规范纪录%s书目纪录%s"
 
 #. %1$s:  IF ( batch_lis.record_type == 'auth' )
 #. %2$s:  ELSE
@@ -8482,7 +8482,7 @@ msgstr "%s权威纪录%s书目纪录%s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:363
 #, c-format
 msgid "%sAuthority%sBibliographic%s"
-msgstr "%s权威%s书目%s"
+msgstr "%s规范%s书目%s"
 
 #. %1$s:  IF ( del )
 #. %2$s:  ELSE
@@ -9045,7 +9045,7 @@ msgstr "%s修改 %s新增 %s 一个系统首选"
 msgid ""
 "%sModify authority #%s (%s)%sAdding authority (%s)%s &rsaquo; Authorities "
 "&rsaquo; Koha"
-msgstr "&rsaquo; %s修改权威 #%s (%s)%s新增权威 %s%s "
+msgstr "&rsaquo; %s修改规范 #%s (%s)%s新增规范 %s%s "
 
 #. %1$s:  IF ( action_modify )
 #. %2$s:  END
@@ -9836,9 +9836,9 @@ msgid "&nbsp;Show inactive:"
 msgstr "&nbsp;显示不活跃："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:357
-#, fuzzy, c-format
+#, c-format
 msgid "&quot;STARTDATE:January 1, 2010&quot;,&quot;TRACK:Day&quot;"
-msgstr "&quot;STARTDATE:January 1, 2010&quot;,&quot;TRACK:Day&quot;"
+msgstr "&quot;开始日期：January 1, 2010&quot;,&quot;跟踪：天&quot;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:26
 #, fuzzy, c-format
@@ -9848,7 +9848,7 @@ msgstr "&rsaquo; 新增指定用书给 "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:21
 #, fuzzy, c-format
 msgid "&rsaquo; Mana Knowledge Base report search results "
-msgstr "&rsaquo; 权威寻找结果"
+msgstr "&rsaquo; 规范寻找结果"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/merge-patrons.tt:82
 #, fuzzy, c-format
@@ -10480,12 +10480,12 @@ msgstr "** 供应商清单已经含税。"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:524
 #, c-format
 msgid ", Auckland, New Zealand (OPAC 'star-ratings' sponsorship)"
-msgstr ", 奥克兰, 纽西兰 (OPAC '星级评估' 支持者)"
+msgstr "，奥克兰，新西兰 (OPAC '星级评估' 支持者)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:521
 #, c-format
 msgid ", Cyprus"
-msgstr ", 塞普路斯"
+msgstr "，塞普路斯"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:518
 #, c-format
@@ -10502,22 +10502,22 @@ msgstr ", 法国 (推荐，统计向导与改进LDAP赞助者)"
 msgid ""
 ", France (biblio frameworks, MARC authorities, OPAC basket, Serials "
 "sponsorship)"
-msgstr ", 法国 (书目纪录框架、权威 MARC、OPAC 书目清单、期刊赞助者)"
+msgstr ", 法国（书目框架、规范 MARC、OPAC 书目清单、连续出版物赞助者）"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:514
 #, c-format
 msgid ", New Zealand, and Rosalie Blake, Head of Libraries, (Koha 1.0)"
-msgstr ", 纽西兰 and Rosalie Blake, 图书馆馆长, (Koha 1.0)"
+msgstr "，新西兰，Rosalie Blake, 图书馆馆长, (Koha 1.0)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:520
 #, c-format
 msgid ", OH, USA (Koha 3.0 beta testing)"
-msgstr ", 俄亥俄州，美国 (Koha 3.0 外部测试)"
+msgstr "美国俄亥俄州（Koha 3.0 外部测试）"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:515
 #, c-format
 msgid ", Ohio, USA (MARC sponsorship, documentation, template maintenance)"
-msgstr ", 俄亥俄州，美国 (MARC 赞助者、文件、模板维护者)"
+msgstr "，美国俄亥俄州（MARC 、手册、模板维护者）"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:519
 #, c-format
@@ -10532,17 +10532,17 @@ msgstr ", Pascale Nalon (ENSMP), 及其它 "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:88
 #, c-format
 msgid ", Please transfer this item. "
-msgstr ", 请转移此馆藏。"
+msgstr "，请传递此馆藏。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:767
 #, c-format
 msgid ", by the "
-msgstr ""
+msgstr "，由"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:518
-#, fuzzy, c-format
+#, c-format
 msgid ", greater than or equal to 1"
-msgstr "请键入大于或等于{0}的值。"
+msgstr "，应该大于等于1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:406
 #, c-format
@@ -10552,12 +10552,12 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/share_content.tt:52
 #, c-format
 msgid ", please ask an administrator to check your configuration. "
-msgstr ""
+msgstr "，请咨询管理员检查配置。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:72
 #, c-format
 msgid ", when the next team will be elected."
-msgstr ""
+msgstr "，当下个团队被选举出时。"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:494
@@ -10630,24 +10630,24 @@ msgid "-- Choose format --"
 msgstr "-- 选择格式 --"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/audio_alerts.tt:59
-#, fuzzy, c-format
+#, c-format
 msgid "-- Choose one -- "
-msgstr "-- 选择一个 --"
+msgstr "-- 选择一个 -- "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/set-library.tt:117
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:325
-#, fuzzy, c-format
+#, c-format
 msgid "-- None --"
-msgstr "- 无 -"
+msgstr "-- 无 --"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:208
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:265
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/paycollect.tt:175
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/paycollect.tt:306
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:143
-#, fuzzy, c-format
+#, c-format
 msgid "-- Select an option--"
-msgstr "选定模板"
+msgstr "--选择一项--"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:299
 #, c-format
@@ -10831,13 +10831,13 @@ msgstr "5"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:243
 #, c-format
 msgid ": %sDisabled%sSSL%sSTARTTLS%s"
-msgstr ""
+msgstr ": %sDisabled%sSSL%sSTARTTLS%s"
 
 #. %1$s: - IF default_config.debug -
 #. %2$s: - ELSE -
 #. %3$s: - END -
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:244
-#, fuzzy, c-format
+#, c-format
 msgid ": %sYes%sNo%s"
 msgstr "%s是%s否%s"
 
@@ -10855,7 +10855,7 @@ msgid ": Barcode must be unique."
 msgstr "：条码不能重复。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:62
-#, fuzzy, c-format
+#, c-format
 msgid ": Barcode must be unique. "
 msgstr "：条码不能重复。"
 
@@ -11092,7 +11092,7 @@ msgstr "摘录 / 摘要"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/usage_statistics.tt:136
 #, c-format
 msgid "Academic"
-msgstr ""
+msgstr "高校"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:431
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:433
@@ -11159,7 +11159,7 @@ msgstr "条码号文件："
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:157
 #, c-format
 msgid "Access files stored on the server, like log files or reports"
-msgstr ""
+msgstr "访问服务器存储文件，例如日志文件或者报表"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:756
 #, c-format
@@ -11226,17 +11226,17 @@ msgstr "帐户罚款与付款"
 #. %1$s:  INCLUDE 'patron-title.inc'
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/accountline-details.tt:29
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/accountline-details.tt:38
-#, fuzzy, c-format
+#, c-format
 msgid "Account for %s"
-msgstr "&rsaquo; 帐号 %s"
+msgstr "帐号 %s"
 
 #. For the first occurrence,
 #. %1$s:  INCLUDE 'patron-title.inc'
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/accountline-details.tt:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:34
-#, fuzzy, c-format
+#, c-format
 msgid "Account for %s "
-msgstr "&rsaquo; 帐号 %s"
+msgstr "帐号 %s"
 
 #. %1$s:  INCLUDE 'patron-title.inc' no_html = 1
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:17
@@ -12520,12 +12520,12 @@ msgstr "新增、编辑与删除读者虚拟书架及其内容"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:16
 #, c-format
 msgid "Add, modify and view patron information"
-msgstr ""
+msgstr "新增、修改和查看读者信息"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:269
 #, c-format
 msgid "Add, modify and view patron information "
-msgstr ""
+msgstr "新增、修改和查看读者信息"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:172
 #, c-format
@@ -12579,13 +12579,13 @@ msgstr "新增映射"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:218
 #, c-format
 msgid "Adding authority %s"
-msgstr "新增权威 %s"
+msgstr "新增规范 %s"
 
 #. %1$s:  authtypetext | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:202
 #, fuzzy, c-format
 msgid "Adding authority %s "
-msgstr "新增权威 %s"
+msgstr "新增规范 %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:168
 #, c-format
@@ -12942,12 +12942,12 @@ msgstr "高级预测模式"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subscriptions-search.inc:5
 #, c-format
 msgid "Advanced search"
-msgstr "高级寻找"
+msgstr "组合检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:38
 #, fuzzy, c-format
 msgid "Advanced search "
-msgstr "高级寻找"
+msgstr "组合检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:7
 #, fuzzy, c-format
@@ -14421,7 +14421,7 @@ msgstr "确定删除此采购单吗？"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities_js.inc:2
 msgid "Are you sure you want to delete this authority?"
-msgstr "确定删除此权威纪录吗？"
+msgstr "确定删除此规范纪录吗？"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:356
@@ -15021,12 +15021,12 @@ msgstr "八月"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:107
 #, c-format
 msgid "Auth"
-msgstr "权威"
+msgstr "规范"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:175
 #, c-format
 msgid "Auth field copied"
-msgstr "复制权威字段"
+msgstr "复制规范字段"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:264
 #, c-format
@@ -15041,7 +15041,7 @@ msgstr "容许值："
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:257
 #, fuzzy, c-format
 msgid "Authenticated"
-msgstr "权威"
+msgstr "规范"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:181
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:217
@@ -15052,7 +15052,7 @@ msgstr "Authid"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/overdrive.tt:44
 #, fuzzy, c-format
 msgid "Authname"
-msgstr "权威"
+msgstr "规范"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:150
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:12
@@ -15245,28 +15245,28 @@ msgstr "容许值类型："
 #: koha-tmpl/intranet-tmpl/prog/en/includes/prefs-menu.inc:38
 #, c-format
 msgid "Authorities"
-msgstr "权威"
+msgstr "规范"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities-home.tt:17
 #, fuzzy, c-format
 msgid "Authorities "
-msgstr "权威："
+msgstr "规范"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities-home.tt:3
 #, fuzzy, c-format
 msgid "Authorities &rsaquo; Koha"
-msgstr "权威："
+msgstr "规范 &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:219
 #, c-format
 msgid "Authorities tables"
-msgstr "容许值表"
+msgstr "规范值表"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:72
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:71
 #, c-format
 msgid "Authorities: "
-msgstr "权威："
+msgstr "规范："
 
 #. For the first occurrence,
 #. SCRIPT
@@ -15277,26 +15277,26 @@ msgstr "权威："
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:157
 #, c-format
 msgid "Authority"
-msgstr "权威"
+msgstr "规范"
 
 #. %1$s:  authid | html
 #. %2$s:  authtypetext | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/detail.tt:57
 #, c-format
 msgid "Authority #%s (%s)"
-msgstr "权威#%s(%s)"
+msgstr "规范#%s(%s)"
 
 #. %1$s:  loopro.object | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:349
 #, c-format
 msgid "Authority %s"
-msgstr "权威 %s"
+msgstr "规范 %s"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/prefs-menu.inc:34
 #: koha-tmpl/intranet-tmpl/prog/en/includes/prefs-menu.inc:38
 msgid "Authority Control"
-msgstr "权威控制"
+msgstr "规范控制"
 
 #. %1$s:  IF ( authtypecode )
 #. %2$s:  authtypecode | html
@@ -15305,36 +15305,36 @@ msgstr "权威控制"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_tag_structure.tt:168
 #, c-format
 msgid "Authority MARC framework for %s%s%sdefault framework%s"
-msgstr "权威 MARC 框架给 %s%s%s缺省框架%s"
+msgstr "规范 MARC 框架给 %s%s%s缺省框架%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:5
 #, fuzzy, c-format
 msgid "Authority MARC subfield structure &rsaquo; Administration &rsaquo; Koha"
-msgstr "权威 MARC 分栏结构管理给 %s (权威：%s)"
+msgstr "规范 MARC 分栏结构管理给 %s (规范：%s)"
 
 #. %1$s:  tagfield | html
 #. %2$s:  authtypecode | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:296
 #, c-format
 msgid "Authority MARC subfield structure admin for %s (authority: %s)"
-msgstr "权威 MARC 分栏结构管理给 %s (权威：%s)"
+msgstr "规范 MARC 分栏结构管理给 %s (规范：%s)"
 
 #. %1$s:  tagfield | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:43
 #, c-format
 msgid "Authority MARC subfield structure for %s"
-msgstr "权威 MARC 分栏结构给 %s"
+msgstr "规范 MARC 分栏结构给 %s"
 
 #. %1$s:  tagfield | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:37
 #, fuzzy, c-format
 msgid "Authority MARC subfield structure for %s "
-msgstr "权威 MARC 分栏结构给 %s"
+msgstr "规范 MARC 分栏结构给 %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:82
 #, c-format
 msgid "Authority Type"
-msgstr "权威类型"
+msgstr "规范类型"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/blinddetail-biblio-search.tt:4
 #, c-format
@@ -15344,29 +15344,29 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:126
 #, c-format
 msgid "Authority field to copy: "
-msgstr "复制的权威字段："
+msgstr "复制的规范字段："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:147
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:150
 #, c-format
 msgid "Authority record"
-msgstr "权威纪录"
+msgstr "规范纪录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/auth_finder.tt:12
 #, c-format
 msgid "Authority search"
-msgstr "权威寻找"
+msgstr "规范检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist-auth.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist.tt:34
 #, c-format
 msgid "Authority search results"
-msgstr "权威寻找结果"
+msgstr "规范检索结果"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist.tt:22
 #, fuzzy, c-format
 msgid "Authority search results "
-msgstr "权威寻找结果"
+msgstr "规范检索结果"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist.tt:5
 #, c-format
@@ -15376,14 +15376,14 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:104
 #, c-format
 msgid "Authority type"
-msgstr "权威类型"
+msgstr "规范类型"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:110
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/export.tt:196
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:14
 #, c-format
 msgid "Authority type: "
-msgstr "权威类型："
+msgstr "规范类型："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:22
@@ -15400,7 +15400,7 @@ msgstr "容许值类型"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:338
 #, c-format
 msgid "Authority:"
-msgstr "权威："
+msgstr "规范："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_tag_structure.tt:305
 #, c-format
@@ -15528,7 +15528,7 @@ msgstr "打开IndependentBranches与Autolocation打开，登录与图书馆不�
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:15
 #, fuzzy
 msgid "Automatic authority link results:"
-msgstr "权威寻找结果"
+msgstr "规范检索结果"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:457
 #, fuzzy, c-format
@@ -18918,7 +18918,7 @@ msgstr "目录详情 %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-bib-search.tt:9
 #, c-format
 msgid "Catalog search"
-msgstr "目录寻找"
+msgstr "目录检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-bib-search.tt:2
 #, fuzzy, c-format
@@ -18972,7 +18972,7 @@ msgstr "&rsaquo; %s存储报表 %s从SQL新增 %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist-auth.tt:6
 #, fuzzy, c-format
 msgid "Cataloging authority plugin &rsaquo; Koha"
-msgstr "Koha &rsaquo; 编目权威外挂程序"
+msgstr "Koha &rsaquo; 编目规范外挂程序"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:42
 #, c-format
@@ -18982,7 +18982,7 @@ msgstr "编目编辑器"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cataloging-search.inc:47
 #, c-format
 msgid "Cataloging search"
-msgstr "编目寻找"
+msgstr "编目检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:254
 #, c-format
@@ -19272,9 +19272,9 @@ msgid "Change your Hea settings"
 msgstr "检查您的数据库设置 "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:40
-#, fuzzy, c-format
+#, c-format
 msgid "Change your Mana KB settings"
-msgstr "检查您的数据库设置 "
+msgstr "修改您的 Mana 知识库设置"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:112
 #, c-format
@@ -19594,9 +19594,9 @@ msgid ""
 msgstr "勾选图书馆，接受还入馆藏。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:569
-#, fuzzy, c-format
+#, c-format
 msgid "Check the expiration of a serial "
-msgstr "检查期刊的到期日"
+msgstr "检查连续出版物的到期日"
 
 #. %1$s:  INCLUDE txt_kohaconf_xml
 #. %2$s:  '127.0.0.1' | $HtmlTags tag=>'code'
@@ -19640,19 +19640,19 @@ msgstr "勾选以让读者纪录在此属性有多个值。设置属性后，不
 #, fuzzy, c-format
 msgid ""
 "Check to make this attribute copied to the patron's pseudonymized attributes."
-msgstr "勾选以便在馆员读者寻找时，显示staff_searchable属性。"
+msgstr "勾选以便在馆员读者检索时，显示staff_searchable属性。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:184
 #, fuzzy, c-format
 msgid ""
 "Check to make this attribute mandatory when creating or editing a patron."
-msgstr "勾选以便在馆员读者寻找时，显示staff_searchable属性。"
+msgstr "勾选以便在馆员读者检索时，显示staff_searchable属性。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:176
 #, c-format
 msgid ""
 "Check to make this attribute staff_searchable in the staff patron search."
-msgstr "勾选以便在馆员读者寻找时，显示staff_searchable属性。"
+msgstr "勾选以便在馆员读者检索时，显示staff_searchable属性。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:192
 #, c-format
@@ -19663,9 +19663,9 @@ msgstr ""
 
 #. %1$s:  'koha-conf.xml' | $HtmlTags Tag=>'code'
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step2.tt:48
-#, fuzzy, c-format
+#, c-format
 msgid "Check your database settings in %s."
-msgstr "检查您的数据库设置 "
+msgstr "检查您的数据库设置 %s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/item_circulation_alerts.tt:114
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/item_circulation_alerts.tt:142
@@ -20026,9 +20026,9 @@ msgstr ""
 "错误。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:587
-#, fuzzy, c-format
+#, c-format
 msgid "Cheshire Libraries, United Kingdom"
-msgstr "software.coop，英国"
+msgstr "Cheshire Libraries, 英国"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:210
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:857
@@ -20212,7 +20212,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:228
 #, fuzzy, c-format
 msgid "Choose which plugins to use to suggest searches to patrons and staff"
-msgstr "选择供读者与馆员推荐寻找用的外挂程序。"
+msgstr "选择供读者与馆员推荐检索用的外挂程序。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/transferCollection.tt:75
 #, c-format
@@ -20489,7 +20489,7 @@ msgstr "县市别名"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cities-admin-search.inc:7
 #, c-format
 msgid "City search:"
-msgstr "寻找县市："
+msgstr "检索县市："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/merge-patrons.tt:214
 #, fuzzy, c-format
@@ -20803,7 +20803,7 @@ msgstr "清除画面"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_search.tt:58
 #, c-format
 msgid "Clear search form"
-msgstr "清除寻找表单"
+msgstr "清除检索表单"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:271
@@ -20822,7 +20822,7 @@ msgstr "至少请选择一个 %s 至 %s 之间。"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:174
 #, c-format
 msgid "Clear used authorities"
-msgstr "清除使用过的权威记录"
+msgstr "清除使用过的规范记录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:229
 #, c-format
@@ -21811,7 +21811,7 @@ msgstr "确认删除合约%s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:149
 #, c-format
 msgid "Confirm deletion of authority structure definition for "
-msgstr "确认删除权威结构定义 "
+msgstr "确认删除规范结构定义 "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:50
 #, fuzzy, c-format
@@ -22337,9 +22337,9 @@ msgid "Converted message, rendered:"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/preview_letter.tt:57
-#, fuzzy, c-format
+#, c-format
 msgid "Converted version"
-msgstr "Perl 版本："
+msgstr "转换版本"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:297
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:604
@@ -22890,7 +22890,7 @@ msgstr "新增虚拟书架"
 msgid ""
 "Create and manage Authorities frameworks that define the characteristics of "
 "your MARC Records (field and subfield definitions)"
-msgstr "新增与管理权威框架，设置 MARC 纪录(定义字段与分栏)的字符。"
+msgstr "新增与管理规范框架，设置 MARC 纪录(定义字段与分栏)的字符。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:156
 #, fuzzy, c-format
@@ -22899,7 +22899,7 @@ msgid ""
 "of your MARC Records (field and subfield definitions) as well as templates "
 "for the MARC editor"
 msgstr ""
-"新增与管理权威框架，设置 MARC 纪录 (定义字段与分栏) 的字符，MARC 编辑器的模"
+"新增与管理规范框架，设置 MARC 纪录 (定义字段与分栏) 的字符，MARC 编辑器的模"
 "版。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:64
@@ -22911,13 +22911,13 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:15
 #, fuzzy
 msgid "Create authority"
-msgstr "新增权威记录"
+msgstr "新增规范记录"
 
 #. %1$s:  authtypecode | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_tag_structure.tt:260
 #, c-format
 msgid "Create authority framework for %s using "
-msgstr "新增权威框架给 %s 使用 "
+msgstr "新增规范框架给 %s 使用 "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:111
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:113
@@ -22935,7 +22935,7 @@ msgstr "清除字段"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:216
 #, c-format
 msgid "Create framework for %s (%s) using "
-msgstr "新增权威框架给 %s (%s) 使用 "
+msgstr "新增规范框架给 %s (%s) 使用 "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reports-home.tt:42
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-menu.inc:16
@@ -23005,7 +23005,7 @@ msgstr "Koha &rsaquo; 读者 &rsaquo; %s"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:5
 #, c-format
 msgid "Create new authority"
-msgstr "新增权威记录"
+msgstr "新增规范记录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:218
 #, fuzzy, c-format
@@ -23225,7 +23225,7 @@ msgstr "币别与汇率"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/currencies-admin-search.inc:7
 #, c-format
 msgid "Currencies search:"
-msgstr "币别寻找："
+msgstr "币别检索："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:180
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:214
@@ -23292,9 +23292,9 @@ msgid "Current library:"
 msgstr "活动图书馆"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:540
-#, fuzzy, c-format
+#, c-format
 msgid "Current maintenance team"
-msgstr "可用的模板"
+msgstr "当前维护团队"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:114
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:491
@@ -23392,7 +23392,7 @@ msgstr "遥测图像"
 #. OPTGROUP
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:76
 msgid "Custom search fields"
-msgstr "客制化寻找字段"
+msgstr "客制化检索字段"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -24596,7 +24596,7 @@ msgstr "删除批次馆藏"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:195
 #, c-format
 msgid "Delete a batch of records (bibliographic or authority)"
-msgstr "删除批次记录(书目或权威)"
+msgstr "删除批次记录(书目或规范)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:105
 #, c-format
@@ -25372,7 +25372,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/includes/desks-admin-search.inc:7
 #, fuzzy, c-format
 msgid "Desk search:"
-msgstr "新增寻找"
+msgstr "新增检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:91
 #, c-format
@@ -25456,9 +25456,9 @@ msgstr "详情"
 
 #. %1$s:  INCLUDE 'patron-title.inc'
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/housebound.tt:26
-#, fuzzy, c-format
+#, c-format
 msgid "Details for %s "
-msgstr "&rsaquo; 字段 %s"
+msgstr "%s 细节"
 
 #. %1$s:  INCLUDE 'patron-title.inc' no_html = 1
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/housebound.tt:9
@@ -25760,7 +25760,7 @@ msgstr "也显示儿童。"
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:349
 msgid "Display detail for this authority"
-msgstr "显示此权威的详情"
+msgstr "显示此规范的详情"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:340
@@ -26704,12 +26704,12 @@ msgstr "编辑视为新增(复制)"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:40
 #, c-format
 msgid "Edit authorities"
-msgstr "编辑权威"
+msgstr "编辑规范"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist-auth.tt:65
 #, c-format
 msgid "Edit authority"
-msgstr "编辑权威"
+msgstr "编辑规范"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:83
 #, c-format
@@ -26987,7 +26987,7 @@ msgstr "编辑虚拟书架"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:271
 msgid "Edit search"
-msgstr "编辑寻找"
+msgstr "编辑检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:67
 #, fuzzy, c-format
@@ -27057,9 +27057,9 @@ msgid "Edit vendor note "
 msgstr "新增供应商说明"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/koha-news.tt:221
-#, fuzzy, c-format
+#, c-format
 msgid "Edit with WYSIWYG editor"
-msgstr "TinyMCE WYSIWYG 编辑器"
+msgstr "使用 TinyMCE 所见即所得编辑器"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/koha-news.tt:219
 #, fuzzy, c-format
@@ -27095,7 +27095,7 @@ msgstr "编辑新增纪录"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
 msgid "Editing search result"
-msgstr "编辑寻找结果"
+msgstr "编辑检索结果"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:152
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:205
@@ -27109,7 +27109,7 @@ msgstr "版本"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:187
 #, c-format
 msgid "Edition: "
-msgstr "版本："
+msgstr "版本： "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:275
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:889
@@ -27142,7 +27142,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:61
 #, fuzzy, c-format
 msgid "Elasticsearch: "
-msgstr "读者寻找："
+msgstr "读者检索："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:11
@@ -27467,7 +27467,7 @@ msgstr "键入读者号或部份姓名："
 msgid ""
 "Enter a summary that will overwrite the default one in search results lists. "
 "Example, for a website itemtype : "
-msgstr "键入摘要覆盖寻找结果清单的缺省值。如网站的馆藏类型："
+msgstr "键入摘要覆盖检索结果清单的缺省值。如网站的馆藏类型："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:227
 #, c-format
@@ -27482,7 +27482,7 @@ msgstr "键入字或词，检查清单的有效性："
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:173
 #, c-format
 msgid "Enter any authority field:"
-msgstr "键入任何权威字段："
+msgstr "键入任何规范字段："
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:119
 #, c-format
@@ -27620,13 +27620,13 @@ msgstr "键入读者号："
 #: koha-tmpl/intranet-tmpl/prog/en/includes/z3950-admin-search.inc:22
 #, c-format
 msgid "Enter search keywords:"
-msgstr "键入寻找键词："
+msgstr "键入检索键词："
 
 #. INPUT type=text name=q
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:124
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/search.tt:67
 msgid "Enter search terms"
-msgstr "键入寻找术语"
+msgstr "键入检索术语"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/print.tt:99
 #, c-format
@@ -27659,7 +27659,7 @@ msgstr "键入批次馆藏的条码"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/suggestions-add-search.inc:27
 #: koha-tmpl/intranet-tmpl/prog/en/includes/z3950-admin-search.inc:24
 msgid "Enter the terms you wish to search for."
-msgstr "键入寻找的术语。"
+msgstr "键入检索的术语。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/localization.tt:64
 #, c-format
@@ -27850,7 +27850,7 @@ msgstr "错误：条码重复 %sserialseq %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/maninvoice.tt:53
 #, fuzzy, c-format
 msgid "Error: Invalid barcode entered, please try again "
-msgstr "寻找时间到，请再登录"
+msgstr "检索时间到，请再登录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/koha-news.tt:73
 #, c-format
@@ -28256,7 +28256,7 @@ msgstr "输出为CSV"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/export.tt:240
 #, c-format
 msgid "Export authority records"
-msgstr "输出权威纪录"
+msgstr "输出规范纪录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:173
 #, fuzzy, c-format
@@ -28277,7 +28277,7 @@ msgstr "输出书目纪录"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:210
 #, c-format
 msgid "Export bibliographic, holdings, and authority records"
-msgstr "输出书目、馆藏与权威纪录"
+msgstr "输出书目、馆藏与规范纪录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-batch.tt:80
 #, c-format
@@ -30298,7 +30298,7 @@ msgstr "Koha 映射至 MARC"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:271
 #, c-format
 msgid "Go to advanced search"
-msgstr "进入高级寻找"
+msgstr "进入组合检索"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/catalogue/itemsearch_item.json.inc:19
@@ -30308,7 +30308,7 @@ msgstr "进入馆藏详情"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:54
 #, c-format
 msgid "Go to item search"
-msgstr "进入馆藏寻找"
+msgstr "进入馆藏检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:243
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:146
@@ -32247,7 +32247,7 @@ msgstr "%s (如点选，即表示此分栏为可点选的 URL)"
 msgid ""
 "If checked, items of this type will be hidden as filters in OPAC's advanced "
 "search."
-msgstr "%s (勾选后，此类馆藏将被筛选器隐藏在 OPAC 的高级寻找内) "
+msgstr "%s (勾选后，此类馆藏将被筛选器隐藏在 OPAC 的组合检索内) "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:310
 #, c-format
@@ -32747,7 +32747,7 @@ msgstr "照片"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/imageviewer.tt:5
 #, fuzzy, c-format
 msgid "Images &rsaquo; %s &rsaquo; Catalog &rsaquo; Koha"
-msgstr "Koha &rsaquo; 期刊 &rsaquo; 寻找目录"
+msgstr "Koha &rsaquo; 期刊 &rsaquo; 检索目录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/image-manage.tt:3
 #, fuzzy, c-format
@@ -33132,7 +33132,7 @@ msgstr "一般设置"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:365
 #, fuzzy, c-format
 msgid "Inherit from system preferences"
-msgstr "寻找系统首选"
+msgstr "检索系统首选"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:171
 #, fuzzy, c-format
@@ -33286,7 +33286,7 @@ msgstr "插入"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1392
 #, fuzzy
 msgid "Insert patron category parameter"
-msgstr "寻找读者类型名称："
+msgstr "检索读者类型名称："
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -33386,7 +33386,7 @@ msgstr "指示"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:112
 #, c-format
 msgid "Instructor search:"
-msgstr "寻找教师："
+msgstr "检索教师："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:73
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-reserves.tt:52
@@ -33479,7 +33479,7 @@ msgstr "内部说明："
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
 #, fuzzy
 msgid "Internal search error"
-msgstr "<h3>内部寻找错误</h3>"
+msgstr "<h3>内部检索错误</h3>"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/prefs-menu.inc:74
@@ -33523,7 +33523,7 @@ msgstr "内部网络"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:221
 #, c-format
 msgid "Invalid authority type"
-msgstr "不合法权威类型"
+msgstr "不合法规范类型"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_add_items.tt:151
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_rm_items.tt:69
@@ -34302,12 +34302,12 @@ msgstr "馆藏还入至借出图书馆"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:23
 #, c-format
 msgid "Item search"
-msgstr "馆藏寻找"
+msgstr "馆藏检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:163
 #, fuzzy, c-format
 msgid "Item search "
-msgstr "馆藏寻找"
+msgstr "馆藏检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:145
 #, fuzzy, c-format
@@ -34318,7 +34318,7 @@ msgstr "Koha &rsaquo; 编目 &rsaquo; "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_field.tt:47
 #, fuzzy, c-format
 msgid "Item search field: %s"
-msgstr "馆藏寻找字段：%s"
+msgstr "馆藏检索字段：%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:179
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_field.tt:24
@@ -34326,13 +34326,13 @@ msgstr "馆藏寻找字段：%s"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-menu.inc:91
 #, fuzzy, c-format
 msgid "Item search fields"
-msgstr "馆藏寻找字段"
+msgstr "馆藏检索字段"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_field.tt:34
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:23
 #, fuzzy, c-format
 msgid "Item search fields "
-msgstr "馆藏寻找字段"
+msgstr "馆藏检索字段"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_field.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:6
@@ -34343,7 +34343,7 @@ msgstr "Koha &rsaquo; 管理 &rsaquo; 音效提示"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:271
 msgid "Item search results"
-msgstr "馆藏寻找结果"
+msgstr "馆藏检索结果"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:251
 #, fuzzy, c-format
@@ -35604,7 +35604,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-batch.tt:119
 #, fuzzy, c-format
 msgid "Leave empty to add via item search (itemnumber) "
-msgstr "通过馆藏寻找(馆藏号)新增空白。"
+msgstr "通过馆藏检索(馆藏号)新增空白。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:815
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:820
@@ -36194,12 +36194,12 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:307
 #, fuzzy
 msgid "Link copied to the clipboard"
-msgstr "编辑权威"
+msgstr "编辑规范"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/keyboard_shortcuts.inc:7
 #, fuzzy, c-format
 msgid "Link field to authorities"
-msgstr "编辑权威"
+msgstr "编辑规范"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -36697,7 +36697,7 @@ msgstr "纪录"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:201
 #, c-format
 msgid "Look for existing records in catalog?"
-msgstr "寻找目录里的既有纪录吗？"
+msgstr "检索目录里的既有纪录吗？"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:617
 #, fuzzy, c-format
@@ -37220,9 +37220,9 @@ msgstr "付款"
 #. %1$s:  patron.firstname | html
 #. %2$s:  patron.surname | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/pay.tt:29
-#, fuzzy, c-format
+#, c-format
 msgid "Make a payment for %s %s "
-msgstr "&rsaquo; 支付罚款 %s %s"
+msgstr "支付罚款 %s %s"
 
 #. %1$s:  patron.firstname | html
 #. %2$s:  patron.surname | html
@@ -37322,12 +37322,12 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:29
 #, fuzzy, c-format
 msgid "Mana Knowledge Base report search results"
-msgstr "寻找代理商结果"
+msgstr "检索代理商结果"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:9
 #, fuzzy, c-format
 msgid "Mana Knowledge Base reports search &rsaquo; Reports &rsaquo; Koha"
-msgstr "寻找代理商结果"
+msgstr "检索代理商结果"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/share_content.tt:59
 #, c-format
@@ -37346,9 +37346,9 @@ msgid ""
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:130
-#, fuzzy, c-format
+#, c-format
 msgid "Mana search"
-msgstr "寻找"
+msgstr "Mana 检索"
 
 #. %1$s:  statuscode | html
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-subscription-search-result.inc:90
@@ -37447,9 +37447,9 @@ msgid "Manage OPAC problem reports submitted by patrons"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:244
-#, fuzzy, c-format
+#, c-format
 msgid "Manage SMS cellular providers "
-msgstr "&rsaquo; CSV输出配置文件 "
+msgstr "管理手机短信供应商"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:224
 #, fuzzy, c-format
@@ -37462,9 +37462,9 @@ msgid "Manage Stock rotation rotas, rota stages and rota items"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:214
-#, fuzzy, c-format
+#, c-format
 msgid "Manage Z39.50 and SRU server configuration "
-msgstr "Z39.50/SRU 服务器管理"
+msgstr "管理 Z39.50/SRU 服务器配置"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:114
 #, fuzzy, c-format
@@ -37583,7 +37583,7 @@ msgstr "币别与汇率"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:180
 #, fuzzy, c-format
 msgid "Manage custom fields for item search"
-msgstr "管理客制化字段供馆藏寻找"
+msgstr "管理客制化字段供馆藏检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:164
 #, fuzzy, c-format
@@ -37640,7 +37640,7 @@ msgstr "馆藏流通报警"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:204
 #, fuzzy, c-format
 msgid "Manage item search fields "
-msgstr "馆藏寻找字段"
+msgstr "馆藏检索字段"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:149
 #, fuzzy, c-format
@@ -37700,7 +37700,7 @@ msgstr "管理编号模式 "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/acquisitions-menu.inc:38
 #, fuzzy, c-format
 msgid "Manage order basket fields"
-msgstr "馆藏寻找字段"
+msgstr "馆藏检索字段"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/acqui-home.tt:51
 #, c-format
@@ -38115,9 +38115,8 @@ msgstr "采用的映射规则"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Match case"
-msgstr "检查映射 "
+msgstr "Match case"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:529
 #, c-format
@@ -38466,7 +38465,7 @@ msgstr "Koha &rsaquo; 编目 &rsaquo; "
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities_js.inc:2
 msgid "Merging with authority: "
-msgstr "合并权威 ："
+msgstr "合并规范 ："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:361
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:363
@@ -38751,12 +38750,12 @@ msgstr "修改 %s 服务器"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:12
 #, fuzzy, c-format
 msgid "Modify SRU search fields mapping for authorities"
-msgstr "修改 SRU 寻找字段的映射"
+msgstr "修改 SRU 检索字段的映射"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping.tt:14
 #, fuzzy, c-format
 msgid "Modify SRU search fields mapping for bibliographic records"
-msgstr "修改 SRU 寻找字段的映射"
+msgstr "修改 SRU 检索字段的映射"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:38
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:140
@@ -38767,7 +38766,7 @@ msgstr "修改或删除CSV输出配置文件"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:200
 #, c-format
 msgid "Modify a batch of records (biblios or authorities)"
-msgstr "修改批次记录(书目或权威)"
+msgstr "修改批次记录(书目或规范)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:98
 #, c-format
@@ -38799,14 +38798,14 @@ msgstr "我的帐户"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:216
 #, c-format
 msgid "Modify authority #%s %s"
-msgstr "修改权威纪录 #%s %s"
+msgstr "修改规范纪录 #%s %s"
 
 #. %1$s:  authid | html
 #. %2$s:  authtypetext | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:195
 #, fuzzy, c-format
 msgid "Modify authority #%s (%s) "
-msgstr "修改权威纪录 #%s %s"
+msgstr "修改规范纪录 #%s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:43
 #, fuzzy, c-format
@@ -39728,12 +39727,12 @@ msgstr "值"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-toolbar.inc:8
 #, c-format
 msgid "New authority "
-msgstr "新增权威 "
+msgstr "新增规范 "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:164
 #, c-format
 msgid "New authority type"
-msgstr "新增权威类型"
+msgstr "新增规范类型"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:50
 #, fuzzy, c-format
@@ -40153,12 +40152,12 @@ msgstr "新增传阅清单"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:184
 #, c-format
 msgid "New search"
-msgstr "新增寻找"
+msgstr "新增检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:36
 #, fuzzy, c-format
 msgid "New search field"
-msgstr "馆藏寻找字段"
+msgstr "馆藏检索字段"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:101
 #, c-format
@@ -40250,14 +40249,14 @@ msgid "New window"
 msgstr "隐藏窗口"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:622
-#, fuzzy, c-format
+#, c-format
 msgid "Newcastle City Council, United Kingdom"
-msgstr "software.coop，英国"
+msgstr "Newcastle City Council, 英国"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:433
-#, fuzzy, c-format
+#, c-format
 msgid "Newer version"
-msgstr "Perl 版本："
+msgstr "新版本"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/koha-news.tt:39
@@ -40499,9 +40498,9 @@ msgstr "No DEPARTMENT 找到容许值！%s 请 "
 #. %1$s:  booksellername | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:326
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:408
-#, fuzzy, c-format
+#, c-format
 msgid "No EDIFACT configuration for %s"
-msgstr "XML组态档"
+msgstr "没有 %s 的EDIFACT 的配置文件"
 
 #. %1$s:  errmsgloo.msg | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:135
@@ -40527,7 +40526,7 @@ msgid ""
 "No SRU search field mappings have been defined. This means that all field "
 "searches will go through the whole record. Continue?"
 msgstr ""
-"未设置 SRU 寻找映射的字段。就是所有的字段寻找都是寻找整笔纪录。继续吗？"
+"未设置 SRU 检索映射的字段。就是所有的字段检索都是检索整笔纪录。继续吗？"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:96
 #, c-format
@@ -40756,7 +40755,7 @@ msgstr "还没有选择订单"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:190
 #, c-format
 msgid "No funds to display for this search criteria"
-msgstr "此寻找类型内无基金"
+msgstr "此检索类型内无基金"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:372
 #, c-format
@@ -40890,7 +40889,7 @@ msgstr "找不到馆藏。"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:376
 #, fuzzy, c-format
 msgid "No items were found by searching."
-msgstr "寻找无结果。%s %s "
+msgstr "检索无结果。%s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:102
 #, fuzzy, c-format
@@ -41185,7 +41184,7 @@ msgstr "不允许预约"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:144
 #, c-format
 msgid "No results for your query"
-msgstr "您的寻找未找到结果"
+msgstr "您的检索未找到结果"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist-auth.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:324
@@ -41210,7 +41209,7 @@ msgstr "未找到结果。"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:326
 #, c-format
 msgid "No results match your search %sfor "
-msgstr "您寻找 %s 没有结果 "
+msgstr "您检索 %s 没有结果 "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:958
 #, c-format
@@ -41249,7 +41248,7 @@ msgstr "此订阅视另个供应商而定"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:48
 #, fuzzy, c-format
 msgid "No system preferences matched your search for: "
-msgstr "无系统首选匹配您的寻找 "
+msgstr "无系统首选匹配您的检索 "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:296
 #, c-format
@@ -41861,8 +41860,8 @@ msgid ""
 "MARC21, field 100 in the authority record should be copied to field 100 in "
 "the bibliographic record"
 msgstr ""
-"说明：进入权威纪录的字段，复制至书目纪录，就能 '复制权威字段'。如：在 MARC21 "
-"里，权威纪录字段 100 应复制入书目纪录的字段 100"
+"说明：进入规范纪录的字段，复制至书目纪录，就能 '复制规范字段'。如：在 MARC21 "
+"里，规范纪录字段 100 应复制入书目纪录的字段 100"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:73
 #, c-format
@@ -42713,9 +42712,9 @@ msgid "Older transactions"
 msgstr "显示所有交易"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:429
-#, fuzzy, c-format
+#, c-format
 msgid "Older version"
-msgstr "Perl 版本："
+msgstr "旧版本"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:243
 #, c-format
@@ -42895,7 +42894,7 @@ msgid ""
 "permission if granular permissions are enabled) are returned in the search "
 "results"
 msgstr ""
-"拥有超级馆员或采访权限 (或取得 order_manage 权限) 的馆员，才能在寻找结果由退"
+"拥有超级馆员或采访权限 (或取得 order_manage 权限) 的馆员，才能在检索结果由退"
 "回原址"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/common/patron_search.tt:57
@@ -42904,7 +42903,7 @@ msgid ""
 "Only staff with superlibrarian or suggestions_manage permissions are "
 "returned in the search results"
 msgstr ""
-"拥有超级馆员或采访权限 (或取得 order_manage 权限) 的馆员，才能在寻找结果由退"
+"拥有超级馆员或采访权限 (或取得 order_manage 权限) 的馆员，才能在检索结果由退"
 "回原址"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:458
@@ -43190,7 +43189,7 @@ msgstr "订单号码"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/histsearch.tt:36
 #, fuzzy, c-format
 msgid "Order search "
-msgstr "订单寻找"
+msgstr "订单检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/filter-orders.inc:45
 #, c-format
@@ -43330,7 +43329,7 @@ msgstr "订单来自："
 #: koha-tmpl/intranet-tmpl/prog/en/includes/acquisitions-search.inc:28
 #, c-format
 msgid "Orders search"
-msgstr "订单寻找"
+msgstr "订单检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:82
 #, c-format
@@ -43620,15 +43619,15 @@ msgstr "逾期"
 
 #. %1$s:  todaysdate | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:44
-#, fuzzy, c-format
+#, c-format
 msgid "Overdues as of %s "
-msgstr "&rsaquo; 逾期 %s"
+msgstr "逾期 %s"
 
 #. %1$s:  Branches.GetLoggedInBranchname | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchoverdues.tt:20
-#, fuzzy, c-format
+#, c-format
 msgid "Overdues at %s "
-msgstr "&rsaquo; 逾期 %s"
+msgstr "逾期 %s"
 
 #. %1$s:  Branches.GetLoggedInBranchname | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchoverdues.tt:4
@@ -44681,12 +44680,12 @@ msgstr "读者限制"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/common/patron_search.tt:7
 #, fuzzy, c-format
 msgid "Patron search &rsaquo; Koha"
-msgstr "读者寻找："
+msgstr "读者检索："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/list.tt:93
 #, c-format
 msgid "Patron search: "
-msgstr "读者寻找："
+msgstr "读者检索："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:568
 #, c-format
@@ -45065,7 +45064,7 @@ msgstr "借出最多的读者"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member.tt:10
 #, fuzzy, c-format
 msgid "Patrons%s &rsaquo; Search results%s &rsaquo; Koha"
-msgstr "Koha &rsaquo; 读者 %s&rsaquo; 寻找结果%s"
+msgstr "Koha &rsaquo; 读者 %s&rsaquo; 检索结果%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_extend_due_dates.tt:67
 #, fuzzy, c-format
@@ -45257,7 +45256,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/acqui-search-result.tt:35
 #, c-format
 msgid "Perform a new search"
-msgstr "执行新的寻找"
+msgstr "执行新的检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:766
 #, c-format
@@ -45272,7 +45271,7 @@ msgstr "执行批次删除馆藏"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:534
 #, fuzzy, c-format
 msgid "Perform batch deletion of records (bibliographic or authority) "
-msgstr "执行删除批次记录 (书目或权威)"
+msgstr "执行删除批次记录 (书目或规范)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:434
 #, fuzzy, c-format
@@ -45292,7 +45291,7 @@ msgstr "执行批次修改读者"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:539
 #, fuzzy, c-format
 msgid "Perform batch modification of records (biblios or authorities) "
-msgstr "执行批次修改记录 (书目或权威)"
+msgstr "执行批次修改记录 (书目或规范)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:761
 #, fuzzy, c-format
@@ -45537,7 +45536,7 @@ msgstr "放置与修改读者的预约"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:104
 #, fuzzy, c-format
 msgid "Place article request from %s for %s %s ( %s )"
-msgstr "寻找结果来自 %s 至 %s 的 %s"
+msgstr "检索结果来自 %s 至 %s 的 %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:144
@@ -45719,7 +45718,7 @@ msgstr "新增读者类型"
 msgid ""
 "Please add barcodes using either the direct entry text area or the item "
 "search."
-msgstr "请新增条码，可直接取用文字区内容或寻找馆藏。"
+msgstr "请新增条码，可直接取用文字区内容或检索馆藏。"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:280
@@ -45930,7 +45929,7 @@ msgstr ""
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:307
 msgid "Please enter a search term."
-msgstr "请键入寻找字词。"
+msgstr "请键入检索字词。"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
@@ -46626,7 +46625,7 @@ msgstr "预选"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:114
 #, c-format
 msgid "Preselected (searched by default): "
-msgstr "预选(寻找缺省值)："
+msgstr "预选(检索缺省值)："
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -46676,7 +46675,7 @@ msgstr "预视"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_extend_due_dates.tt:112
 #, fuzzy, c-format
 msgid "Preview results:"
-msgstr "缩小寻找："
+msgstr "缩小检索："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:23
 #, fuzzy, c-format
@@ -47127,7 +47126,7 @@ msgstr "处理 "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:66
 #, c-format
 msgid "Processing authority records"
-msgstr "处理权威纪录"
+msgstr "处理规范纪录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:64
 #, c-format
@@ -47147,7 +47146,7 @@ msgstr "处理 "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:508
 #, fuzzy, c-format
 msgid "Processing multiple items"
-msgstr "处理权威纪录"
+msgstr "处理规范纪录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member-password.tt:112
 #, c-format
@@ -47809,13 +47808,13 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:626
 #, c-format
 msgid "RRP tax exc."
-msgstr "RRP 不含税"
+msgstr "RRP 不含税。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:426
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:628
 #, c-format
 msgid "RRP tax inc."
-msgstr "RRP 含税"
+msgstr "RRP 含税。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search-results.inc:25
 #, c-format
@@ -48238,17 +48237,17 @@ msgstr "缩小结果"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:142
 #, c-format
 msgid "Refine results:"
-msgstr "缩小寻找："
+msgstr "缩小检索："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/duplicate_orders.tt:64
 #, fuzzy, c-format
 msgid "Refine search"
-msgstr "缩小您的寻找"
+msgstr "缩小您的检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:7
 #, c-format
 msgid "Refine your search"
-msgstr "缩小您的寻找"
+msgstr "缩小您的检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-toolbar.inc:28
 #, c-format
@@ -48443,9 +48442,9 @@ msgid "Relationship: "
 msgstr "关系："
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:77
-#, fuzzy, c-format
+#, c-format
 msgid "Release maintainer:"
-msgstr "释出维护者："
+msgstr "版本发布维护者："
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:235
 #, c-format
@@ -48454,9 +48453,9 @@ msgstr "释出维护者："
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:65
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:229
-#, fuzzy, c-format
+#, c-format
 msgid "Release manager assistant:"
-msgstr "释出经理："
+msgstr "版本发布经理助理："
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:57
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:221
@@ -48528,7 +48527,7 @@ msgstr "提醒："
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:197
 #, c-format
 msgid "Reminder: this action will delete all selected authorities!"
-msgstr "提示：此动作将删除所有选定的权威！"
+msgstr "提示：此动作将删除所有选定的规范！"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:169
 #, c-format
@@ -48540,7 +48539,7 @@ msgstr "提示：此动作将删除所有选定的书目记录、附加的订阅
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:233
 #, c-format
 msgid "Reminder: this action will modify all selected authorities!"
-msgstr "提示：此动作将修改所有选定的权威！"
+msgstr "提示：此动作将修改所有选定的规范！"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:207
 #, c-format
@@ -48550,7 +48549,7 @@ msgstr "提示：此动作将修改所有选定的书目！"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_extend_due_dates.tt:161
 #, fuzzy, c-format
 msgid "Reminder: this action will modify all selected checkouts!"
-msgstr "提示：此动作将修改所有选定的权威！"
+msgstr "提示：此动作将修改所有选定的规范！"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:280
 #, fuzzy, c-format
@@ -49628,7 +49627,7 @@ msgstr "需要取代预约政策"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/usage_statistics.tt:141
 #, fuzzy, c-format
 msgid "Research"
-msgstr "新增寻找"
+msgstr "新增检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:86
 #, fuzzy, c-format
@@ -49868,7 +49867,7 @@ msgstr "结果 %s 至 %s 的 %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:76
 #, fuzzy, c-format
 msgid "Results for authority records"
-msgstr "权威纪录结果"
+msgstr "规范纪录结果"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/list.tt:28
 #, fuzzy, c-format
@@ -50486,9 +50485,9 @@ msgid "SMS cellular providers"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sms_providers.tt:22
-#, fuzzy, c-format
+#, c-format
 msgid "SMS cellular providers "
-msgstr "&rsaquo; CSV输出配置文件 "
+msgstr "手机短信供应商"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sms_providers.tt:5
 #, fuzzy, c-format
@@ -50550,17 +50549,17 @@ msgstr "SQL："
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:173
 #, c-format
 msgid "SRU Search fields mapping: "
-msgstr "匹配 SRU 寻找字段："
+msgstr "匹配 SRU 检索字段："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:3
 #, fuzzy, c-format
 msgid "SRU search fields mapping for authorities &rsaquo; Koha"
-msgstr "修改 SRU 寻找字段的映射"
+msgstr "修改 SRU 检索字段的映射"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping.tt:5
 #, fuzzy, c-format
 msgid "SRU search fields mapping for bibliographic records &rsaquo; Koha"
-msgstr "修改 SRU 寻找字段的映射"
+msgstr "修改 SRU 检索字段的映射"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:225
 #, c-format
@@ -51078,14 +51077,13 @@ msgstr "过滤的"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
 #, c-format
 msgid "Search"
-msgstr "寻找"
+msgstr "检索"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:140
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:105
-#, fuzzy
 msgid "Search %s"
-msgstr "寻找"
+msgstr "检索 %s"
 
 #. %1$s:  IF ( query_desc )
 #. %2$s:  query_desc | html
@@ -51096,89 +51094,89 @@ msgstr "寻找"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:44
 #, fuzzy, c-format
 msgid "Search %s for '%s'%s %s &nbsp;with limit(s):&nbsp;'%s'%s "
-msgstr "&rsaquo; 寻找 %s供 '%s'%s%s&nbsp;祗限于：&nbsp;'%s'%s "
+msgstr "&rsaquo; 检索 %s供 '%s'%s%s&nbsp;祗限于：&nbsp;'%s'%s "
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:133
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:93
 msgid "Search ISSN"
-msgstr "寻找 ISSN"
+msgstr "检索 ISSN"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/z3950-admin-search.inc:30
 #, c-format
 msgid "Search Z39.50/SRU servers"
-msgstr "寻找 Z39.50/SRU 服务器"
+msgstr "检索 Z39.50/SRU 服务器"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:230
 #, c-format
 msgid "Search all headings"
-msgstr "寻找所有标题"
+msgstr "检索所有标题"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:70
 #, fuzzy, c-format
 msgid "Search all headings: "
-msgstr "寻找所有标题"
+msgstr "检索所有标题"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/contracts-admin-search.inc:8
 #, c-format
 msgid "Search by contract name or/and description:"
-msgstr "寻找合约名称与说明："
+msgstr "检索合约名称与说明："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reports-home.tt:48
 #, fuzzy, c-format
 msgid "Search by keyword:"
-msgstr "键入寻找键词："
+msgstr "键入检索键词："
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patrons-admin-search.inc:7
 #, c-format
 msgid "Search by patron category name:"
-msgstr "寻找读者类型名称："
+msgstr "检索读者类型名称："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/cn_browser.tt:19
 #, c-format
 msgid "Search call number:"
-msgstr "寻找索书号："
+msgstr "检索索书号："
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:98
 msgid "Search callnumber"
-msgstr "寻找索书号"
+msgstr "检索索书号"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:195
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:447
 #, c-format
 msgid "Search category"
-msgstr "寻找类型"
+msgstr "检索类型"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cities-admin-search.inc:29
 #, c-format
 msgid "Search cities"
-msgstr "寻找县市"
+msgstr "检索县市"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:137
 msgid "Search claim count"
-msgstr "寻找要求次数"
+msgstr "检索要求次数"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:138
 msgid "Search claim date"
-msgstr "寻找要求日期"
+msgstr "检索要求日期"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/contracts-admin-search.inc:31
 #, c-format
 msgid "Search contracts"
-msgstr "寻找合约"
+msgstr "检索合约"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/currencies-admin-search.inc:27
 #, c-format
 msgid "Search currencies"
-msgstr "寻找币别"
+msgstr "检索币别"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/desks-admin-search.inc:29
 #, fuzzy, c-format
 msgid "Search desks"
-msgstr "寻找顺序"
+msgstr "检索顺序"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:183
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:72
@@ -51202,83 +51200,83 @@ msgstr "存储组态"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:139
 #, fuzzy, c-format
 msgid "Search entire MARC record"
-msgstr "寻找纪录"
+msgstr "检索纪录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:231
 #, fuzzy, c-format
 msgid "Search entire record"
-msgstr "寻找纪录"
+msgstr "检索纪录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:94
 #, fuzzy, c-format
 msgid "Search entire record: "
-msgstr "寻找纪录"
+msgstr "检索纪录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/letters-search.inc:7
 #, c-format
 msgid "Search existing notices:"
-msgstr "寻找既有的通知："
+msgstr "检索既有的通知："
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:101
 msgid "Search expiration date"
-msgstr "寻找有效日期"
+msgstr "检索有效日期"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
 msgid "Search expired, please try again"
-msgstr "寻找时间到，请再登录"
+msgstr "检索时间到，请再登录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:254
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:423
 #, fuzzy, c-format
 msgid "Search field"
-msgstr "寻找字段："
+msgstr "检索字段："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member.tt:149
 #, fuzzy, c-format
 msgid "Search field:"
-msgstr "寻找字段："
+msgstr "检索字段："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:120
 #, fuzzy, c-format
 msgid "Search fields"
-msgstr "寻找字段："
+msgstr "检索字段："
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:24
 #, c-format
 msgid "Search fields:"
-msgstr "寻找字段："
+msgstr "检索字段："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoices.tt:269
 #, c-format
 msgid "Search filters"
-msgstr "寻找筛选器"
+msgstr "检索筛选器"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:107
 #, c-format
 msgid "Search for "
-msgstr "寻找 "
+msgstr "检索 "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:88
 #, c-format
 msgid "Search for a vendor"
-msgstr "寻找供应商"
+msgstr "检索供应商"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/transferorder.tt:21
 #, c-format
 msgid "Search for a vendor to transfer from"
-msgstr "寻找供应商"
+msgstr "检索供应商"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/transferorder.tt:12
 #, c-format
 msgid "Search for a vendor to transfer to"
-msgstr "寻找代理商"
+msgstr "检索代理商"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/result.tt:60
 #, c-format
 msgid "Search for another record"
-msgstr "寻找另个纪录"
+msgstr "检索另个纪录"
 
 #. %1$s:  IF ( batch_id )
 #. %2$s:  batch_id | html
@@ -51286,44 +51284,44 @@ msgstr "寻找另个纪录"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/search.tt:10
 #, c-format
 msgid "Search for items %s to add to Batch %s %s "
-msgstr "寻找馆藏%s 新增至批次 %s %s "
+msgstr "检索馆藏%s 新增至批次 %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/common/patron_search.tt:18
 #, c-format
 msgid "Search for patron"
-msgstr "寻找读者"
+msgstr "检索读者"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/list.tt:98
 #, fuzzy, c-format
 msgid "Search for patrons"
-msgstr "寻找读者"
+msgstr "检索读者"
 
 #. INPUT type=text name=plugin-search
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-home.tt:59
 #, fuzzy
 msgid "Search for plugins"
-msgstr "寻找读者"
+msgstr "检索读者"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:96
 #, c-format
 msgid "Search for record"
-msgstr "寻找纪录"
+msgstr "检索纪录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:232
 #, c-format
 msgid "Search for tag:"
-msgstr "寻找标签"
+msgstr "检索标签："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:29
 #, fuzzy, c-format
 msgid "Search for vendor "
-msgstr "寻找供应商"
+msgstr "检索供应商"
 
 #. %1$s:  supplier | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:7
 #, fuzzy, c-format
 msgid "Search for vendor %s &rsaquo; Koha"
-msgstr "寻找代理商"
+msgstr "检索代理商"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/acqui-search.tt:2
 #, fuzzy, c-format
@@ -51331,30 +51329,30 @@ msgid "Search for vendor &rsaquo; Serials &rsaquo; Koha"
 msgstr "Koha &rsaquo; 期刊 &rsaquo; 催缺"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member.tt:145
-#, fuzzy, c-format
+#, c-format
 msgid "Search for:"
-msgstr "寻找 "
+msgstr "检索："
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/budgets-admin-search.inc:39
 #, c-format
 msgid "Search funds"
-msgstr "寻找基金"
+msgstr "检索基金"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/budgets-admin-search.inc:8
 #, c-format
 msgid "Search funds:"
-msgstr "寻找基金："
+msgstr "检索基金："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/search-history.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:183
 #, c-format
 msgid "Search history"
-msgstr "寻找记录"
+msgstr "检索记录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/search-history.tt:25
 #, fuzzy, c-format
 msgid "Search history "
-msgstr "寻找记录"
+msgstr "检索记录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/search-history.tt:7
 #, fuzzy, c-format
@@ -51364,104 +51362,103 @@ msgstr "Koha &rsaquo; 编目 &rsaquo; "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:225
 #, c-format
 msgid "Search in the calendar the day you want to set as holiday."
-msgstr "寻找打算设为假日的日子。"
+msgstr "检索打算设为假日的日子。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:180
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:231
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:490
 #, c-format
 msgid "Search index: "
-msgstr "寻找索引："
+msgstr "检索索引："
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:134
 msgid "Search issue number"
-msgstr "寻找期号"
+msgstr "检索期号"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:131
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:96
 msgid "Search library"
-msgstr "寻找图书馆"
+msgstr "检索图书馆"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:97
 msgid "Search location"
-msgstr "寻找位置"
+msgstr "检索位置"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:229
 #, c-format
 msgid "Search main heading"
-msgstr "寻找主要款目"
+msgstr "检索主要款目"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:228
 #, fuzzy, c-format
 msgid "Search main heading ($a only)"
-msgstr "寻找主要款目"
+msgstr "检索主要款目"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:19
 #, fuzzy, c-format
 msgid "Search main heading ($a only): "
-msgstr "寻找主要款目"
+msgstr "检索主要款目"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:45
 #, fuzzy, c-format
 msgid "Search main heading: "
-msgstr "寻找主要款目"
+msgstr "检索主要款目"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:95
 msgid "Search notes"
-msgstr "寻找说明"
+msgstr "检索说明"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/letters-search.inc:27
 #, c-format
 msgid "Search notices"
-msgstr "寻找说明"
+msgstr "检索说明"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-bib-search.tt:12
 #, c-format
 msgid "Search on"
-msgstr "寻找"
+msgstr "检索"
 
 #. IMG
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/detail.tt:111
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:103
-#, fuzzy
 msgid "Search on %s"
-msgstr "寻找"
+msgstr "检索 %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-menu.inc:35
-#, fuzzy, c-format
+#, c-format
 msgid "Search on Mana"
-msgstr "寻找"
+msgstr "Mana 检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:12
 #, c-format
 msgid "Search options"
-msgstr "寻找选项"
+msgstr "检索选项"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/duplicate_orders.tt:62
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/histsearch.tt:175
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/histsearch.tt:178
 #, c-format
 msgid "Search orders"
-msgstr "寻找顺序"
+msgstr "检索顺序"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/acquisitions-search.inc:11
 #, c-format
 msgid "Search orders:"
-msgstr "寻找顺序："
+msgstr "检索顺序："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:363
 #, fuzzy, c-format
 msgid "Search partners"
-msgstr "寻找读者"
+msgstr "检索读者"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patrons-admin-search.inc:28
 #, c-format
 msgid "Search patron categories"
-msgstr "寻找读者类型"
+msgstr "检索读者类型"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member.tt:142
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:120
@@ -51470,17 +51467,17 @@ msgstr "寻找读者类型"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:115
 #, c-format
 msgid "Search patrons"
-msgstr "寻找读者"
+msgstr "检索读者"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:118
 #, fuzzy, c-format
 msgid "Search patrons or clubs"
-msgstr "寻找读者"
+msgstr "检索读者"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:142
 #, fuzzy, c-format
 msgid "Search reports by keyword: "
-msgstr "键入寻找键词："
+msgstr "键入检索键词："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/histsearch.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:131
@@ -51489,7 +51486,7 @@ msgstr "键入寻找键词："
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-home.tt:73
 #, c-format
 msgid "Search results"
-msgstr "寻找结果"
+msgstr "检索结果"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/histsearch.tt:30
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:45
@@ -51497,12 +51494,12 @@ msgstr "寻找结果"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:29
 #, fuzzy, c-format
 msgid "Search results "
-msgstr "寻找结果"
+msgstr "检索结果"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/result.tt:26
 #, fuzzy, c-format
 msgid "Search results &rsaquo; Barcodes and labels &rsaquo; Koha"
-msgstr "Koha &rsaquo; 条码与书标 &rsaquo; 寻找结果"
+msgstr "Koha &rsaquo; 条码与书标 &rsaquo; 检索结果"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/result.tt:3
 #, fuzzy, c-format
@@ -51515,14 +51512,14 @@ msgstr "Koha &rsaquo; 期刊 &rsaquo; 催缺"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/result.tt:12
 #, c-format
 msgid "Search results from %s to %s of %s"
-msgstr "寻找结果来自 %s 至 %s 的 %s"
+msgstr "检索结果来自 %s 至 %s 的 %s"
 
 #. NAV
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:240
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:252
 #, fuzzy
 msgid "Search results navigation"
-msgstr "寻找结果"
+msgstr "检索结果"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:335
 #, fuzzy, c-format
@@ -51532,52 +51529,52 @@ msgstr "删除选定的读者"
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:136
 msgid "Search since"
-msgstr "寻找始于"
+msgstr "检索始于"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:135
 msgid "Search status"
-msgstr "寻找状态"
+msgstr "检索状态"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:270
 #, c-format
 msgid "Search string matches: "
-msgstr "寻找匹配的符串："
+msgstr "检索匹配的符串："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:237
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:347
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-search.inc:37
 #, c-format
 msgid "Search subscriptions"
-msgstr "寻找订阅"
+msgstr "检索订阅"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/routing-lists.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-search.inc:6
 #, c-format
 msgid "Search subscriptions:"
-msgstr "寻找订阅："
+msgstr "检索订阅："
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/suggestions-add-search.inc:33
 #, c-format
 msgid "Search suggestions"
-msgstr "寻找推荐"
+msgstr "检索推荐"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/prefs-admin-search.inc:30
 #, c-format
 msgid "Search system preferences"
-msgstr "寻找系统首选"
+msgstr "检索系统首选"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:102
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_search.tt:67
-#, fuzzy, c-format
+#, c-format
 msgid "Search targets"
-msgstr "寻找标的 "
+msgstr "检索目标"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:145
 #, c-format
 msgid "Search term: "
-msgstr "寻找词语："
+msgstr "检索词语："
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/budgets-admin-search.inc:41
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-search.inc:45
@@ -51598,69 +51595,69 @@ msgstr "寻找词语："
 #: koha-tmpl/intranet-tmpl/prog/en/includes/z3950-admin-search.inc:32
 #, c-format
 msgid "Search the catalog"
-msgstr "寻找目录"
+msgstr "检索目录"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cataloging-search.inc:7
 #, c-format
 msgid "Search the catalog and the reservoir:"
-msgstr "寻找目录与典藏所："
+msgstr "检索目录与典藏所："
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:132
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:94
 msgid "Search title"
-msgstr "寻找题名"
+msgstr "检索题名"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:36
 #, c-format
 msgid "Search to hold"
-msgstr "寻找以预约"
+msgstr "检索以预约"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/clubs-table.inc:100
 #, fuzzy, c-format
 msgid "Search to hold "
-msgstr "寻找以预约"
+msgstr "检索以预约"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member.tt:166
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:41
 #, c-format
 msgid "Search type:"
-msgstr "寻找类型："
+msgstr "检索类型："
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
 msgid "Search unavailable"
-msgstr "寻找不能使用"
+msgstr "检索不能使用"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:118
 #, fuzzy, c-format
 msgid "Search uploads by category"
-msgstr "寻找类型"
+msgstr "检索类型"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:142
 #, c-format
 msgid "Search uploads by name or hashvalue"
-msgstr "以名称或散列值寻找上传"
+msgstr "以名称或散列值检索上传"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-bib-search.tt:18
 #, c-format
 msgid "Search value: "
-msgstr "寻找值："
+msgstr "检索值："
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:130
 msgid "Search vendor"
-msgstr "寻找代理商"
+msgstr "检索代理商"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/acquisitions-search.inc:5
 #, c-format
 msgid "Search vendors:"
-msgstr "寻找代理商"
+msgstr "检索代理商"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoices.tt:198
 #, c-format
 msgid "Search was: "
-msgstr "寻找是："
+msgstr "检索是："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:113
 #, c-format
@@ -51670,27 +51667,27 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/common/patron_search.tt:21
 #, c-format
 msgid "Search:"
-msgstr "寻找："
+msgstr "检索："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:132
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:137
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:258
 #, c-format
 msgid "Searchable"
-msgstr "可寻找"
+msgstr "可检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:186
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:170
 #, c-format
 msgid "Searchable: "
-msgstr "可寻找："
+msgstr "可检索："
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/prefs-menu.inc:124
 #: koha-tmpl/intranet-tmpl/prog/en/includes/prefs-menu.inc:128
 #, c-format
 msgid "Searching"
-msgstr "寻找"
+msgstr "检索"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:550
@@ -51807,9 +51804,9 @@ msgid "Seen"
 msgstr "看见"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:639
-#, fuzzy, c-format
+#, c-format
 msgid "Sefton Council, United Kingdom"
-msgstr "software.coop，英国"
+msgstr "Sefton Council, 英国"
 
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/linkitem.tt:74
@@ -52090,7 +52087,7 @@ msgstr "选定所有范本数据"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_tag_structure.tt:282
 #, c-format
 msgid "Select an authority framework"
-msgstr "选定权威框架"
+msgstr "选定规范框架"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/addbybiblionumber.tt:40
 #, c-format
@@ -52228,7 +52225,7 @@ msgstr "选定远程数据库"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/search-history.tt:215
 #, c-format
 msgid "Select searches to: "
-msgstr "选择寻找："
+msgstr "选择检索："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:185
 #, fuzzy, c-format
@@ -52309,7 +52306,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:142
 #, c-format
 msgid "Select without holds"
-msgstr "寻找无预约"
+msgstr "检索无预约"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:141
 #, c-format
@@ -52355,9 +52352,9 @@ msgid "Selector: "
 msgstr "选择器"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:67
-#, fuzzy, c-format
+#, c-format
 msgid "Self check modules"
-msgstr "Perl 模块"
+msgstr "自检模块"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:95
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:97
@@ -52614,7 +52611,7 @@ msgstr "收到期刊"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/acqui-search.tt:10
 #, c-format
 msgid "Serial subscription: search for vendor "
-msgstr "订阅期刊：寻找代理商 "
+msgstr "订阅期刊：检索代理商 "
 
 #. For the first occurrence,
 #. %1$s:  BIBLIO_RESULT.serial | $raw
@@ -53008,9 +53005,9 @@ msgid "Share %s to Mana"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:47
-#, fuzzy, c-format
+#, c-format
 msgid "Share anonymous usage statistics with the Koha community?"
-msgstr "读者统计"
+msgstr "同 Koha 社区匿名分享使用统计数据？"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:248
 #, c-format
@@ -53044,9 +53041,9 @@ msgid "Share content with the Koha community using Mana KB"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/usage_statistics.tt:72
-#, fuzzy, c-format
+#, c-format
 msgid "Share my Koha usage statistics: "
-msgstr "读者统计"
+msgstr "分享我的 Koha 使用统计："
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-toolbar.inc:70
@@ -53057,14 +53054,14 @@ msgid ""
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-menu.inc:148
-#, fuzzy, c-format
+#, c-format
 msgid "Share usage statistics"
-msgstr "读者统计"
+msgstr "分享使用统计"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-share-report.inc:7
-#, fuzzy, c-format
+#, c-format
 msgid "Share with Mana"
-msgstr "开始"
+msgstr "与 Mana 分享"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:244
 #, c-format
@@ -53078,19 +53075,19 @@ msgid "Share your report with Mana Knowledge Base"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:243
-#, fuzzy, c-format
+#, c-format
 msgid "Share your usage statistics"
-msgstr "读者统计"
+msgstr "分享您的使用统计"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/lists.tt:50
 #, c-format
 msgid "Shared"
-msgstr ""
+msgstr "已分享"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/add-modify.tt:72
 #, c-format
 msgid "Shared:"
-msgstr ""
+msgstr "分享："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:100
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:102
@@ -53100,9 +53097,8 @@ msgstr "Sharp (#)"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Sharpen"
-msgstr "Sharp (#)"
+msgstr "Sharpen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:462
 #: koha-tmpl/intranet-tmpl/prog/en/columns.def:76
@@ -53129,7 +53125,7 @@ msgstr "排架位置"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:107
 #, c-format
 msgid "Shelving location (items.location) is: "
-msgstr "排架位置 (items.location) 是："
+msgstr "排架位置 (items.location) 是： "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:436
 #, c-format
@@ -53311,7 +53307,7 @@ msgstr "显示/隐藏高级模式"
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:123
 msgid "Show advanced search (Ctrl-Alt-S)"
-msgstr "显示高级寻找 (Ctrl-Alt-S)"
+msgstr "显示组合检索 (Ctrl-Alt-S)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:161
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:165
@@ -53769,7 +53765,7 @@ msgstr "出错了。不能新增编号模式。"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoices.tt:197
 #, fuzzy, c-format
 msgid "Sorry, but there are no results for your search."
-msgstr "抱歉，您的寻找没有结果。"
+msgstr "抱歉，您的检索没有结果。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:123
 #, c-format
@@ -53779,12 +53775,12 @@ msgstr "抱歉，CAS 登录失败。"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersubscription.tt:104
 #, c-format
 msgid "Sorry, there is no result for your search."
-msgstr "抱歉，您的寻找没有结果。"
+msgstr "抱歉，您的检索没有结果。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:280
 #, c-format
 msgid "Sorry, your request had no results."
-msgstr "抱歉，您的寻找没有结果。"
+msgstr "抱歉，您的检索没有结果。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:203
 #, fuzzy, c-format
@@ -54016,9 +54012,8 @@ msgstr ""
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Spell check"
-msgstr "Perl 模块"
+msgstr "拼写检查"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -54040,9 +54035,9 @@ msgstr "Koha &rsaquo; 采访 &rsaquo; 发票"
 
 #. %1$s:  fund_code | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/spent.tt:27
-#, fuzzy, c-format
+#, c-format
 msgid "Spent - %s "
-msgstr "&rsaquo; Spent - %s"
+msgstr "Spent - %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:289
 #, fuzzy, c-format
@@ -54368,7 +54363,7 @@ msgstr "开始日期范围"
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-bib-search.tt:28
 msgid "Start search"
-msgstr "开始寻找"
+msgstr "开始检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:23
 #, fuzzy, c-format
@@ -54680,7 +54675,7 @@ msgstr "步骤6之6：选择报表的排序方式"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:672
 #, c-format
 msgid "Stephen Hedges (early Documentation Manager)"
-msgstr "Stephen Hedges (早期的文件经理)"
+msgstr "Stephen Hedges (早期的文件管理者)"
 
 #. For the first occurrence,
 #. %1$s:  numberpending | html
@@ -54689,7 +54684,7 @@ msgstr "Stephen Hedges (早期的文件经理)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_search.tt:243
 #, c-format
 msgid "Still %s servers to search"
-msgstr "仍 %s 服务器寻找"
+msgstr "仍 %s 服务器检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:34
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:98
@@ -54705,9 +54700,9 @@ msgid "Stock rotation "
 msgstr "位置"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:9
-#, fuzzy, c-format
+#, c-format
 msgid "Stock rotation &rsaquo; Koha"
-msgstr "&rsaquo; 修改说明%s "
+msgstr "库存周期 &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/stockrotation.tt:27
 #, fuzzy, c-format
@@ -55445,7 +55440,7 @@ msgstr "通过待决的推荐"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/suggestions-add-search.inc:6
 #, c-format
 msgid "Suggestions search:"
-msgstr "推荐寻找："
+msgstr "推荐检索："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:199
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:201
@@ -55780,7 +55775,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/includes/prefs-admin-search.inc:7
 #, c-format
 msgid "System preference search:"
-msgstr "系统首选寻找："
+msgstr "系统首选检索："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:43
@@ -56544,7 +56539,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/detail.tt:55
 #, c-format
 msgid "The authority record you requested does not exist (%s)."
-msgstr "您要求的权威纪录不存在 (%s)。"
+msgstr "您要求的规范纪录不存在 (%s)。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:799
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:840
@@ -57819,7 +57814,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:813
 #, fuzzy, c-format
 msgid "There is no order for this bibliographic record."
-msgstr "%s 此寻找结果未排序。%s "
+msgstr "%s 此检索结果未排序。%s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:110
 #, c-format
@@ -58710,12 +58705,12 @@ msgstr "时间戳记"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:748
 #, c-format
 msgid "TinyMCE WYSIWYG editor"
-msgstr "TinyMCE WYSIWYG 编辑器"
+msgstr "TinyMCE 所见即所得编辑器"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:749
-#, fuzzy, c-format
+#, c-format
 msgid "TinyMCE WYSIWYG editor v5.0.16 "
-msgstr "TinyMCE WYSIWYG 编辑器 v3.5.8 "
+msgstr "TinyMCE WYSIWYG 编辑器 v5.0.16"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:155
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersubscription.tt:55
@@ -58975,7 +58970,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/export.tt:192
 #, c-format
 msgid "To authid: "
-msgstr "至权威别名："
+msgstr "至规范别名："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/export.tt:74
 #, fuzzy, c-format
@@ -59946,7 +59941,7 @@ msgstr "再试其它条码"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_search.tt:235
 #, c-format
 msgid "Try another search"
-msgstr "试其它寻找"
+msgstr "试其它检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/housebound.tt:95
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/housebound.tt:97
@@ -60068,7 +60063,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:163
 #, c-format
 msgid "UTF-8 (Default)"
-msgstr "UTF-8 (Default)"
+msgstr "UTF-8（默认）"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:649
 #, fuzzy, c-format
@@ -60363,9 +60358,9 @@ msgid "Units: "
 msgstr "单位："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:651
-#, fuzzy, c-format
+#, c-format
 msgid "Universidad Empresarial Siglo 21, Argentina"
-msgstr "Universidad Nacional de Córdoba, 阿根廷"
+msgstr "Universidad Empresarial Siglo 21, 阿根廷"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:652
 #, c-format
@@ -60383,9 +60378,9 @@ msgid "Universidad de El Salvador, El Salvador"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:658
-#, fuzzy, c-format
+#, c-format
 msgid "University of the Arts London, United Kingdom"
-msgstr "software.coop，英国"
+msgstr "英国伦敦艺术大学"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:654
 #, c-format
@@ -61225,7 +61220,7 @@ msgstr "使用左方的寻找表单找寻发票。"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersubscription.tt:107
 #, c-format
 msgid "Use the search form on the left to find subscriptions."
-msgstr "使用左方的寻找表单检索订阅。"
+msgstr "使用左方的检索表单检索订阅。"
 
 #. SPAN
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:237
@@ -61428,7 +61423,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:244
 #, c-format
 msgid "VHS tape / Videocassette"
-msgstr "VHS 录影带 / 录影卡带"
+msgstr "VHS 录像带 / 录像卡带"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:659
 #, c-format
@@ -61634,7 +61629,7 @@ msgstr "供应商价格："
 #: koha-tmpl/intranet-tmpl/prog/en/includes/acquisitions-search.inc:27
 #, c-format
 msgid "Vendor search"
-msgstr "寻找代理商"
+msgstr "检索代理商"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/acqui-search-result.tt:11
 #, c-format
@@ -62554,7 +62549,7 @@ msgstr "冬季"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/search-history.tt:215
 #, fuzzy
 msgid "With %s selected searches: "
-msgstr "含选定的寻找："
+msgstr "含选定的检索："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:227
 #, c-format
@@ -62581,7 +62576,7 @@ msgstr "此馆藏必须还入所属图书馆。"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/search-history.tt:215
 #, fuzzy
 msgid "With selected search: "
-msgstr "含选定的寻找："
+msgstr "含选定的检索："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:459
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:31
@@ -62711,7 +62706,7 @@ msgstr "MARCXML"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:417
 #, c-format
 msgid "XML configuration file"
-msgstr "XML组态档"
+msgstr "XML 配置文件"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:179
 #, c-format
@@ -62743,7 +62738,7 @@ msgstr "YUI"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-list-table.inc:15
 #, c-format
 msgid "Year"
-msgstr "Year"
+msgstr "年"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:188
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:143
@@ -62879,7 +62874,7 @@ msgstr "寻找系统首选"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:950
 #, fuzzy, c-format
 msgid "Yes if settings allow it"
-msgstr "是的：编辑既有的权威"
+msgstr "是的：编辑既有的规范"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorder.tt:29
 #, c-format
@@ -63002,7 +62997,7 @@ msgstr "OAI 数据集映射"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:228
 #, c-format
 msgid "Yes: Edit existing authority"
-msgstr "是的：编辑既有的权威"
+msgstr "是的：编辑既有的规范"
 
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:760
@@ -63013,7 +63008,7 @@ msgstr "是的：查看既有馆藏"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:235
 #, c-format
 msgid "YesNo"
-msgstr "YesNo"
+msgstr "是否"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:556
 #, c-format
@@ -63304,7 +63299,7 @@ msgstr "设置类型与容许值。"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:333
 #, c-format
 msgid "You did not specify any search criteria."
-msgstr "您可指定任何寻找范围。"
+msgstr "您可指定任何检索范围。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:248
 #, c-format
@@ -63393,7 +63388,7 @@ msgstr "没有设置读者类型或该读者类型没有设置逾期通知。"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/errors/errorpage.tt:32
 #, c-format
 msgid "You followed an outdated link e.g. from a search engine or a bookmark"
-msgstr "您使用如寻找引擎或标签之类过时的连结"
+msgstr "您使用如检索引擎或标签之类过时的连结"
 
 #. %1$s:  total | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:283
@@ -63498,14 +63493,14 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:40
 #, c-format
 msgid "You haven't decided if you want to activate Mana Knowledge Base. "
-msgstr ""
+msgstr "您还没有决定是否激活 Mana 知识库。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:48
 #, c-format
 msgid ""
 "You haven't decided if you want to activate usage statistic sharing in Koha "
 "yet. "
-msgstr ""
+msgstr "您还没有决定是否启用 Koha 统计数据分享。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/errors/errorpage.tt:31
 #, c-format
@@ -63568,7 +63563,7 @@ msgstr "您的管理器必须从管理块设置预算"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-bib-search.tt:11
 #, c-format
 msgid "You must enter a term to search on "
-msgstr "您必须键入寻找的字词 "
+msgstr "您必须键入检索的字词 "
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_extend_due_dates.tt:220
@@ -63682,7 +63677,7 @@ msgstr "打印前应先存储页面"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:160
 #, c-format
 msgid "You searched for "
-msgstr "您寻找给 "
+msgstr "您检索给 "
 
 #. For the first occurrence,
 #. %1$s:  IF ( title )
@@ -63691,7 +63686,7 @@ msgstr "您寻找给 "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_search.tt:99
 #, c-format
 msgid "You searched for: %s"
-msgstr "您寻找给：%s"
+msgstr "您检索给：%s"
 
 #. %1$s:  IF ( BiblioDefaultViewmarc )
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty_duplicate.tt:37
@@ -63759,7 +63754,7 @@ msgstr "使用中币别"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/search-history.tt:206
 #, c-format
 msgid "Your authority search history is empty."
-msgstr "您的权威寻找记录是空的。"
+msgstr "您的规范检索记录是空的。"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -63791,7 +63786,7 @@ msgstr "您的采购单是空的。"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/search-history.tt:122
 #, c-format
 msgid "Your catalog search history is empty."
-msgstr "您的目录寻找记录是空的。"
+msgstr "您的目录检索记录是空的。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-comment-status.inc:7
 #, fuzzy, c-format
@@ -63926,34 +63921,34 @@ msgstr "未找到名称或条码。请再试其它 "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoices.tt:150
 #, fuzzy, c-format
 msgid "Your search returned no closed invoices."
-msgstr "您的寻找结果没有关闭的订阅。"
+msgstr "您的检索结果没有关闭的订阅。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:322
 #, c-format
 msgid "Your search returned no closed subscriptions."
-msgstr "您的寻找结果没有关闭的订阅。"
+msgstr "您的检索结果没有关闭的订阅。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoices.tt:141
 #, fuzzy, c-format
 msgid "Your search returned no open invoices."
-msgstr "您的寻找结果没有打开的订阅。"
+msgstr "您的检索结果没有打开的订阅。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:313
 #, c-format
 msgid "Your search returned no open subscriptions."
-msgstr "您的寻找结果没有打开的订阅。"
+msgstr "您的检索结果没有打开的订阅。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:44
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/acqui-search-result.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:330
 #, c-format
 msgid "Your search returned no results."
-msgstr "您的寻找没有结果。"
+msgstr "您的检索没有结果。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/histsearch.tt:49
 #, fuzzy, c-format
 msgid "Your search returned no results. "
-msgstr "您的寻找没有结果。"
+msgstr "您的检索没有结果。"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-toolbar.inc:136
 #, c-format
@@ -63970,19 +63965,19 @@ msgid ""
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:19
-#, fuzzy, c-format
+#, c-format
 msgid "Z39.50 authority search points"
-msgstr "Z39.50 权威寻找项"
+msgstr "Z39.50 规范检索点"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:6
-#, fuzzy, c-format
+#, c-format
 msgid "Z39.50 authority search points &rsaquo; Koha"
-msgstr "Z39.50 权威寻找项"
+msgstr "Z39.50 规范检索点 &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:8
-#, fuzzy, c-format
+#, c-format
 msgid "Z39.50 authority search results &rsaquo; Koha"
-msgstr "Z39.50 权威寻找项"
+msgstr "Z39.50 规范检索结果 &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:251
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:177
@@ -63991,12 +63986,12 @@ msgstr "Z39.50 权威寻找项"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_search.tt:17
 #, c-format
 msgid "Z39.50/SRU search"
-msgstr "Z39.50/SRU 寻找"
+msgstr "Z39.50/SRU 检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_search.tt:7
 #, fuzzy, c-format
 msgid "Z39.50/SRU search results &rsaquo; Koha"
-msgstr "Koha &rsaquo; Z39.50/SRU 寻找结果"
+msgstr "Koha &rsaquo; Z39.50/SRU 检索结果"
 
 #. %1$s:  msg_add | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:80
@@ -64013,7 +64008,7 @@ msgstr "Z39.50/SRU 服务器已删除 (%s)"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/z3950-admin-search.inc:7
 #, c-format
 msgid "Z39.50/SRU server search:"
-msgstr "Z39.50/SRU 服务器寻找："
+msgstr "Z39.50/SRU 服务器检索："
 
 #. %1$s:  msg_add | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:78
@@ -64070,7 +64065,7 @@ msgstr "邮递区号："
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:132
 #, c-format
 msgid "Zebra server seems not to be available. Is it started?"
-msgstr "Zebra 服务器似乎未启用。重新开始？"
+msgstr "Zebra 服务器似乎未启用。启用吗？"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:130
 #, fuzzy, c-format
@@ -64083,9 +64078,9 @@ msgid "Zebra version: "
 msgstr "Zebra版本："
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/picture-upload.tt:132
-#, fuzzy, c-format
+#, c-format
 msgid "Zip file"
-msgstr "zip 文件"
+msgstr "Zip 文件"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -65038,7 +65033,7 @@ msgstr "显示这个馆员的详情。"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:915
 #, fuzzy, c-format
 msgid "do a catalog search"
-msgstr "目录寻找"
+msgstr "目录检索"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:594
 #, fuzzy, c-format
@@ -65291,7 +65286,7 @@ msgstr "不曾借出。"
 msgid ""
 "has not been modified. An error occurred on modifying it%s (%s)%s. %s "
 "Authority record "
-msgstr "已经修改了。修改时发生错误。%s 权威 "
+msgstr "已经修改了。修改时发生错误。%s 规范 "
 
 #. %1$s:  IF m.error
 #. %2$s:  m.error | html
@@ -67162,8 +67157,8 @@ msgid ""
 "Kouider Bounama, Sham Bajaa, Ghofran Alshami, Chrestian Aboud, Fatema Salem "
 "and Duaa Bazzazi. "
 msgstr ""
-"العربية (Arabic) 版本 3.2 至 3.4、3.16 与 3.18 著者为 KnowledgeWare "
-"Technologies；版本 3.6 至 3.14 著者为阿拉伯 Koha 支持团队：Karam Qubsi、"
+"العربية (Arabic) 版本 3.2 至 3.4、3.16 与 3.18 译者为 KnowledgeWare "
+"Technologies；版本 3.6 至 3.14 译者为阿拉伯 Koha 支持团队：Karam Qubsi、"
 "Kouider Bounama、Sham Bajaa、Ghofran Alshami、Chrestian Aboud、Fatema Salem "
 "与 Duaa Bazzazi。"
 
@@ -67329,7 +67324,7 @@ msgstr ""
 #~ msgstr "&rsaquo; 修改 MARC 模板"
 
 #~ msgid "&rsaquo; %s %sAuthority MARC subfield structure for %s %s"
-#~ msgstr "&rsaquo; %s %s权威 MARC 分栏结构 %s %s"
+#~ msgstr "&rsaquo; %s %s规范 MARC 分栏结构 %s %s"
 
 #~ msgid ""
 #~ "&rsaquo; %s %sConfirm deletion of subfield %s?%s %sData deleted%s %s %s "
@@ -67497,7 +67492,7 @@ msgstr ""
 #~ msgstr "&rsaquo; 管理"
 
 #~ msgid "&rsaquo; Advanced search"
-#~ msgstr "&rsaquo; 高级寻找"
+#~ msgstr "&rsaquo; 组合检索"
 
 #~ msgid "&rsaquo; Alert subscribers for "
 #~ msgstr "&rsaquo; 报警订阅者 "
@@ -67506,10 +67501,10 @@ msgstr ""
 #~ msgstr "&rsaquo; 音效提示"
 
 #~ msgid "&rsaquo; Authorities"
-#~ msgstr "&rsaquo; 权威"
+#~ msgstr "&rsaquo; 规范"
 
 #~ msgid "&rsaquo; Authority search results"
-#~ msgstr "&rsaquo; 权威寻找结果"
+#~ msgstr "&rsaquo; 规范检索结果"
 
 #, fuzzy
 #~ msgid "&rsaquo; Authorized values for category %s %s Authorized values %s "
@@ -67687,11 +67682,11 @@ msgstr ""
 #~ msgstr "&rsaquo; 馆藏流通报警 "
 
 #~ msgid "&rsaquo; Item search "
-#~ msgstr "&rsaquo; 馆藏寻找 "
+#~ msgstr "&rsaquo; 馆藏检索 "
 
 #, fuzzy
 #~ msgid "&rsaquo; Item search fields "
-#~ msgstr "&rsaquo; 馆藏寻找字段 "
+#~ msgstr "&rsaquo; 馆藏检索字段 "
 
 #~ msgid "&rsaquo; Items with no checkouts"
 #~ msgstr "&rsaquo; 未借出的馆藏"
@@ -67882,25 +67877,25 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "&rsaquo; Search engine configuration (Elasticsearch)"
-#~ msgstr "&rsaquo; 寻找既有的纪录"
+#~ msgstr "&rsaquo; 检索既有的纪录"
 
 #~ msgid "&rsaquo; Search for vendor "
-#~ msgstr "&rsaquo; 寻找供应商 "
+#~ msgstr "&rsaquo; 检索供应商 "
 
 #~ msgid "&rsaquo; Search history "
-#~ msgstr "&rsaquo; 寻找纪录 "
+#~ msgstr "&rsaquo; 检索纪录 "
 
 #~ msgid "&rsaquo; Search results%s"
-#~ msgstr "&rsaquo; 寻找结果%s"
+#~ msgstr "&rsaquo; 检索结果%s"
 
 #~ msgid "&rsaquo; Search results%sOrder search%s"
-#~ msgstr "&rsaquo; 寻找结果%s寻找订单%s"
+#~ msgstr "&rsaquo; 检索结果%s检索订单%s"
 
 #~ msgid "&rsaquo; Search results%sPatrons%s"
-#~ msgstr "&rsaquo; 寻找结果%s读者%s"
+#~ msgstr "&rsaquo; 检索结果%s读者%s"
 
 #~ msgid "&rsaquo; Search results%sSerials %s "
-#~ msgstr "&rsaquo; 寻找结果%s期刊 %s "
+#~ msgstr "&rsaquo; 检索结果%s期刊 %s "
 
 #~ msgid "&rsaquo; Sent notices for %s"
 #~ msgstr "&rsaquo; 送出通知给 %s"
@@ -68020,14 +68015,14 @@ msgstr ""
 #~ msgstr "Available itypes"
 
 #~ msgid "Basket group search"
-#~ msgstr "寻找采购单群组"
+#~ msgstr "检索采购单群组"
 
 #, fuzzy
 #~ msgid "Basket name:"
 #~ msgstr "采购单名称："
 
 #~ msgid "Basket search"
-#~ msgstr "寻找采购单"
+#~ msgstr "检索采购单"
 
 #~ msgid "Biblios in reservoir"
 #~ msgstr "在存储库的书目"
@@ -68114,7 +68109,7 @@ msgstr ""
 #~ msgstr "期待"
 
 #~ msgid "Fund search"
-#~ msgstr "寻找基金"
+#~ msgstr "检索基金"
 
 #~ msgid "Hold ratio:"
 #~ msgstr "预约比率："
@@ -68279,7 +68274,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Koha &rsaquo; Administration &rsaquo; Authority MARC subfield structure"
-#~ msgstr "Koha &rsaquo; 管理 &rsaquo; 权威 MARC 分栏结构"
+#~ msgstr "Koha &rsaquo; 管理 &rsaquo; 规范 MARC 分栏结构"
 
 #~ msgid ""
 #~ "Koha &rsaquo; Administration &rsaquo; Authority types %s &rsaquo; "
@@ -68346,7 +68341,7 @@ msgstr ""
 #~ "account %s "
 #~ msgstr ""
 #~ "Koha &rsaquo; 管理 &rsaquo; 纪录配对规则 %s %s &rsaquo; 修改纪录配对规则 "
-#~ "%s &rsaquo; 新增纪录配对规则 %s %s %s &rsaquo; 确认删除寻找纪录规则 &quot;"
+#~ "%s &rsaquo; 新增纪录配对规则 %s %s %s &rsaquo; 确认删除检索纪录规则 &quot;"
 #~ "%s&quot; %s "
 
 #~ msgid ""
@@ -68482,24 +68477,24 @@ msgstr ""
 #~ "%s%s %s &rsaquo; 新增 %s 服务器%s "
 
 #~ msgid "Koha &rsaquo; Authorities"
-#~ msgstr "Koha &rsaquo; 权威"
+#~ msgstr "Koha &rsaquo; 规范"
 
 #~ msgid ""
 #~ "Koha &rsaquo; Authorities &rsaquo; %s Unknown authority record %s Details "
 #~ "for authority #%s (%s) %s "
 #~ msgstr ""
-#~ "Koha &rsaquo; 权威 &rsaquo; %s 不明权威纪录 %s 权威详情 #%s (%s) %s "
+#~ "Koha &rsaquo; 规范 &rsaquo; %s 不明规范纪录 %s 规范详情 #%s (%s) %s "
 
 #~ msgid ""
 #~ "Koha &rsaquo; Authorities &rsaquo; %sModify authority #%s (%s)%sAdding "
 #~ "authority (%s)%s"
-#~ msgstr "Koha &rsaquo; 权威 &rsaquo; %s修改权威 #%s (%s)%s新增权威 (%s)%s"
+#~ msgstr "Koha &rsaquo; 规范 &rsaquo; %s修改规范 #%s (%s)%s新增规范 (%s)%s"
 
 #~ msgid "Koha &rsaquo; Authorities &rsaquo; Authority search results"
-#~ msgstr "Koha &rsaquo; 权威 &rsaquo; 权威寻找结果"
+#~ msgstr "Koha &rsaquo; 规范 &rsaquo; 规范寻找结果"
 
 #~ msgid "Koha &rsaquo; Authority details"
-#~ msgstr "Koha &rsaquo; 权威详情"
+#~ msgstr "Koha &rsaquo; 规范详情"
 
 #~ msgid "Koha &rsaquo; Basket grouping for %s"
 #~ msgstr "Koha &rsaquo; 采购单群组 %s"
@@ -68525,7 +68520,7 @@ msgstr ""
 #~ msgstr "Koha &rsaquo; 目录 &rsaquo; %s 不明纪录 %s MARC 详情 %s %s "
 
 #~ msgid "Koha &rsaquo; Catalog &rsaquo; Advanced search"
-#~ msgstr "Koha &rsaquo; 目录 &rsaquo; 高级寻找"
+#~ msgstr "Koha &rsaquo; 目录 &rsaquo; 组合检索"
 
 #~ msgid "Koha &rsaquo; Catalog &rsaquo; Checkout history for %s"
 #~ msgstr "Koha &rsaquo; 目录 &rsaquo; 借出纪录 %s"
@@ -69146,7 +69141,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Koha &rsaquo; Z39.50 authority search points"
-#~ msgstr "Z39.50 权威寻找项"
+#~ msgstr "Z39.50 规范寻找项"
 
 #, fuzzy
 #~ msgid "Koha &rsaquo; Z39.50 authority search results"
